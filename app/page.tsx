@@ -6,6 +6,19 @@ import TarotCardComponent from "@/components/tarot-card"
 import { tarotDeck } from "@/lib/tarot-data"
 import type { TarotCard } from "@/lib/tarot-data"
 
+const spreadPositions = [
+  { position: 1, meaning: "Present Situation - What is currently happening in your life" },
+  { position: 2, meaning: "Challenge - What is blocking or opposing you" },
+  { position: 3, meaning: "Subconscious Influences - Hidden factors affecting the situation" },
+  { position: 4, meaning: "Recent Past - Events that led to the current situation" },
+  { position: 5, meaning: "Possible Future - What could happen if current path continues" },
+  { position: 6, meaning: "Near Future - What is likely to happen soon" },
+  { position: 7, meaning: "Your Attitude - How you feel about the situation" },
+  { position: 8, meaning: "External Influences - People or events affecting the situation" },
+  { position: 9, meaning: "Hopes and Fears - Your desires and concerns" },
+  { position: 10, meaning: "Final Outcome - The likely resolution of the situation" }
+]
+
 export default function Home() {
   const [cards, setCards] = useState<TarotCard[]>([])
 
@@ -34,7 +47,10 @@ export default function Home() {
               {/* First row - 4 cards */}
               <div className="col-span-4 grid grid-cols-4 gap-4">
                 {cards.slice(0, 4).map((card, index) => (
-                  <div key={index} className="flex justify-center">
+                  <div key={index} className="flex flex-col items-center">
+                    <div className="text-center text-sm text-gray-400 mb-2">
+                      {spreadPositions[index].position}. {spreadPositions[index].meaning}
+                    </div>
                     <TarotCardComponent card={card} position={index + 1} priority={index < 2} />
                   </div>
                 ))}
@@ -44,7 +60,10 @@ export default function Home() {
               <div className="col-span-4 grid grid-cols-4 gap-4">
                 <div className="col-span-1" />
                 {cards.slice(4, 6).map((card, index) => (
-                  <div key={index + 4} className="col-span-1 flex justify-center">
+                  <div key={index + 4} className="col-span-1 flex flex-col items-center">
+                    <div className="text-center text-sm text-gray-400 mb-2">
+                      {spreadPositions[index + 4].position}. {spreadPositions[index + 4].meaning}
+                    </div>
                     <TarotCardComponent card={card} position={index + 5} />
                   </div>
                 ))}
@@ -54,7 +73,10 @@ export default function Home() {
               {/* Third row - 4 cards */}
               <div className="col-span-4 grid grid-cols-4 gap-4">
                 {cards.slice(6, 10).map((card, index) => (
-                  <div key={index + 6} className="flex justify-center">
+                  <div key={index + 6} className="flex flex-col items-center">
+                    <div className="text-center text-sm text-gray-400 mb-2">
+                      {spreadPositions[index + 6].position}. {spreadPositions[index + 6].meaning}
+                    </div>
                     <TarotCardComponent card={card} position={index + 7} />
                   </div>
                 ))}

@@ -22,21 +22,16 @@ export default function TarotCardComponent({
   let imagePath: string
   if (card.arcana === "major") {
     // For major arcana: major_arcana_[cardName].png
-    // Handle special cases
-    const cardName = card.name.toLowerCase().replace(/^the /, '')
-    if (cardName === 'hanged man') {
-      imagePath = '/images/major_arcana_hanged.png'
-    } else if (cardName === 'high priestess') {
-      imagePath = '/images/major_arcana_priestess.png'
-    } else if (cardName === 'wheel of fortune') {
-      imagePath = '/images/major_arcana_fortune.png'
-    } else {
-      imagePath = `/images/major_arcana_${cardName.replace(/ /g, '_')}.png`
-    }
+    const cardName = card.name.toLowerCase()
+      .replace(/^the /, '')
+      .replace(/ /g, '_')
+      .replace(/hanged_man/, 'hanged')
+      .replace(/high_priestess/, 'priestess')
+      .replace(/wheel_of_fortune/, 'fortune')
+    imagePath = `/images/major_arcana_${cardName}.png`
   } else {
     // For minor arcana: minor_arcana_[suitName]_[number].png or minor_arcana_[suit]_[character].png
     const cardValue = card.name.toLowerCase().split(' of ')[0]
-    // Convert number words to digits for numbered cards
     const numberMap: { [key: string]: string } = {
       'ace': 'ace',
       'two': '2',
@@ -54,10 +49,14 @@ export default function TarotCardComponent({
       'king': 'king'
     }
     const numericValue = numberMap[cardValue] || cardValue
-    imagePath = `/images/minor_arcana_${card.suit?.toLowerCase()}_${numericValue}.png`
+    const suit = card.suit?.toLowerCase() || 'cups' // Default to cups if suit is undefined
+    imagePath = `/images/minor_arcana_${suit}_${numericValue}.png`
   }
 
-  console.log(`Card: ${card.name}, Path: ${imagePath}`)
+  // Remove console.log for production
+  if (process.env.NODE_ENV === 'development') {
+    console.log(`Card: ${card.name}, Path: ${imagePath}`)
+  }
 
   return (
     <Dialog>

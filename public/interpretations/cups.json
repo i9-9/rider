@@ -1,0 +1,228 @@
+{
+  "cups": [
+    {
+      "id": 0,
+        "name": "Ace of Cups",
+        "interpretations": {
+        "1": "You are experiencing the pure potential of emotional connection—the divine gift of love and compassion flowing into your life. The unconscious is offering you a new beginning in matters of the heart.",
+        "2": "Your challenge lies in receiving this emotional gift with openness while maintaining healthy boundaries. The unconscious is inviting you to balance vulnerability with wisdom.",
+        "3": "Your foundation includes experiences of deep emotional connection that have prepared you for this new beginning. Past experiences of love and compassion have shaped your current capacity for intimacy.",
+        "4": "Recently, you've felt a stirring of new emotional possibilities, activating the archetype of the Open Heart that welcomes love without fear.",
+        "5": "Consciously, you seek authentic emotional connection—the humanistic ideal of relationships based on mutual growth and understanding.",
+        "6": "Approaching is an opportunity to experience Chesed—the merciful love that flows through authentic connection and compassionate presence.",
+        "7": "You are embodying the archetype of the Lover—one who receives and gives love freely, without attachment or expectation.",
+        "8": "External circumstances are creating opportunities for emotional renewal, representing collective patterns of healing and connection.",
+        "9": "Within you exists both the hope for perfect love and the fear of vulnerability—the eternal tension between connection and protection.",
+        "10": "The journey culminates in what humanistic psychology calls 'unconditional positive regard'—the ability to love and accept while maintaining healthy boundaries."
+      }
+    },
+    {
+      "id": 1,
+      "name": "Two of Cups",
+      "interpretations": {
+        "1": "You are experiencing the energy of mutual connection—the sacred exchange of emotional energy between two souls. The unconscious is highlighting the importance of balanced relationships.",
+        "2": "Your challenge involves maintaining equality in emotional exchange—giving and receiving love in equal measure while honoring individual boundaries.",
+        "3": "Your foundation includes experiences of reciprocal relationships that have taught you about the dance of emotional connection.",
+        "4": "Recently, you've encountered a significant emotional connection, activating the archetype of the Soul Mate who mirrors your deepest self.",
+        "5": "Consciously, you seek relationships based on mutual respect and understanding—the humanistic ideal of connection that honors both unity and individuality.",
+        "6": "Approaching is an opportunity to experience Tiphareth—the harmonious balance that emerges when two hearts meet in authentic connection.",
+        "7": "You are embodying the archetype of the Partner—one who engages in the sacred dance of emotional exchange with awareness and integrity.",
+        "8": "External circumstances are revealing the importance of balanced relationships, representing collective patterns of healing through connection.",
+        "9": "Within you exists both the hope for perfect union and the fear of losing self in relationship—the eternal tension between connection and autonomy.",
+        "10": "The integration leads to what Jung called 'the syzygy'—the sacred marriage of complementary energies that creates wholeness through relationship."
+      }
+    },
+    {
+      "id": 2,
+        "name": "Three of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional celebration—the joy that comes from shared connection and mutual support. The unconscious is highlighting the importance of community and friendship.",
+        "2": "Your challenge involves balancing individual needs with group harmony—finding your authentic place within the collective while maintaining personal boundaries.",
+        "3": "Your foundation includes experiences of supportive community that have taught you about the power of shared emotional connection.",
+        "4": "Recently, you've been celebrating meaningful connections, activating the archetype of the Friend who shares in both joy and sorrow.",
+        "5": "Consciously, you seek authentic community—the humanistic ideal of relationships based on mutual support and celebration.",
+        "6": "Approaching is an opportunity to experience Netzach—the victory that comes through shared emotional connection and collective celebration.",
+        "7": "You are embodying the archetype of the Celebrant—one who honors the sacred in everyday connections and shared experiences.",
+        "8": "External circumstances are creating opportunities for joyful connection, representing collective patterns of healing through community.",
+        "9": "Within you exists both the hope for perfect harmony and the fear of losing individuality—the tension between belonging and autonomy.",
+        "10": "The integration leads to what humanistic psychology calls 'community feeling'—the ability to connect authentically while maintaining personal integrity."
+      }
+    },
+    {
+      "id": 3,
+        "name": "Four of Cups",
+        "interpretations": {
+        "1": "You are experiencing a period of emotional withdrawal—a necessary pause to process and integrate past experiences. The unconscious is calling you to turn inward for deeper understanding.",
+        "2": "Your challenge involves discerning between healthy withdrawal and emotional stagnation—using this time for reflection rather than avoidance.",
+        "3": "Your foundation includes experiences that have taught you the value of emotional self-reflection and the importance of processing feelings.",
+        "4": "Recently, you've been called to examine your emotional patterns, activating the archetype of the Contemplative who seeks deeper understanding.",
+        "5": "Consciously, you seek emotional clarity—the humanistic ideal of self-awareness that leads to authentic connection.",
+        "6": "Approaching is an opportunity to experience Binah—the understanding that comes through patient reflection and emotional processing.",
+        "7": "You are embodying the archetype of the Seeker—one who turns inward to find the answers that lie within.",
+        "8": "External circumstances are creating necessary space for reflection, representing collective patterns of emotional integration.",
+        "9": "Within you exists both the hope for perfect understanding and the fear of missing opportunities—the tension between reflection and action.",
+        "10": "The integration leads to what Jung called 'active imagination'—the ability to engage with inner wisdom while maintaining connection with the outer world."
+      }
+    },
+    {
+      "id": 4,
+        "name": "Five of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional loss—the necessary process of grieving what has passed. The unconscious is highlighting the importance of acknowledging and processing sorrow.",
+        "2": "Your challenge involves balancing grief with hope—honoring your losses while remaining open to new possibilities.",
+        "3": "Your foundation includes experiences of loss that have taught you about the transformative power of grief and the importance of emotional healing.",
+        "4": "Recently, you've been processing significant emotional changes, activating the archetype of the Mourner who honors loss while remaining open to renewal.",
+        "5": "Consciously, you seek emotional healing—the humanistic ideal of processing grief in a way that leads to growth.",
+        "6": "Approaching is an opportunity to experience Geburah—the strength that comes through facing and processing emotional pain.",
+        "7": "You are embodying the archetype of the Healer—one who transforms pain into wisdom through conscious processing.",
+        "8": "External circumstances are revealing the importance of emotional healing, representing collective patterns of transformation through loss.",
+        "9": "Within you exists both the hope for renewal and the fear of further loss—the tension between grief and hope.",
+        "10": "The integration leads to what humanistic psychology calls 'post-traumatic growth'—the ability to find meaning and strength through difficult experiences."
+      }
+    },
+    {
+      "id": 5,
+        "name": "Six of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional memory—the return of past feelings and experiences that inform your present. The unconscious is highlighting the importance of integrating past and present.",
+        "2": "Your challenge involves balancing nostalgia with present-moment awareness—honoring the past while remaining fully present.",
+        "3": "Your foundation includes significant emotional memories that continue to shape your current experience and understanding.",
+        "4": "Recently, you've been revisiting important emotional experiences, activating the archetype of the Rememberer who integrates past wisdom.",
+        "5": "Consciously, you seek emotional integration—the humanistic ideal of learning from the past while living fully in the present.",
+        "6": "Approaching is an opportunity to experience Tiphareth—the harmonious integration of past experiences with present awareness.",
+        "7": "You are embodying the archetype of the Time Traveler—one who moves between past and present with awareness and purpose.",
+        "8": "External circumstances are creating opportunities for emotional integration, representing collective patterns of healing through memory.",
+        "9": "Within you exists both the hope for perfect integration and the fear of being trapped in the past—the tension between memory and presence.",
+        "10": "The integration leads to what Jung called 'the transcendent function'—the ability to hold past and present in creative tension."
+      }
+    },
+    {
+      "id": 6,
+        "name": "Seven of Cups",
+        "interpretations": {
+        "1": "You are experiencing a proliferation of emotional possibilities—multiple paths and choices in matters of the heart. The unconscious is highlighting the importance of discernment.",
+        "2": "Your challenge involves distinguishing between illusion and authentic emotional connection—seeing through fantasy to recognize real opportunities.",
+        "3": "Your foundation includes experiences that have taught you about the difference between emotional fantasy and reality.",
+        "4": "Recently, you've been presented with multiple emotional options, activating the archetype of the Discerner who sees through illusion.",
+        "5": "Consciously, you seek emotional clarity—the humanistic ideal of making choices based on authentic connection rather than fantasy.",
+        "6": "Approaching is an opportunity to experience Hod—the discernment that comes through careful analysis of emotional possibilities.",
+        "7": "You are embodying the archetype of the Visionary—one who sees through illusion to recognize authentic emotional opportunities.",
+        "8": "External circumstances are revealing the importance of emotional discernment, representing collective patterns of choice and illusion.",
+        "9": "Within you exists both the hope for perfect connection and the fear of making the wrong choice—the tension between possibility and reality.",
+        "10": "The integration leads to what Jung called 'the transcendent function'—the ability to hold multiple possibilities in creative tension until clarity emerges."
+      }
+    },
+    {
+      "id": 7,
+        "name": "Eight of Cups",
+        "interpretations": {
+        "1": "You are experiencing the call to emotional departure—the need to leave behind what no longer serves your growth. The unconscious is highlighting the importance of necessary endings.",
+        "2": "Your challenge involves finding the courage to walk away from emotional situations that have completed their purpose—honoring the past while moving forward.",
+        "3": "Your foundation includes experiences of necessary endings that have taught you about the importance of emotional evolution.",
+        "4": "Recently, you've been called to leave behind emotional patterns or relationships, activating the archetype of the Wanderer who seeks new horizons.",
+        "5": "Consciously, you seek emotional growth—the humanistic ideal of moving beyond what has become limiting or stagnant.",
+        "6": "Approaching is an opportunity to experience Hod—the discernment that recognizes when it's time to move on.",
+        "7": "You are embodying the archetype of the Seeker—one who follows the call to emotional evolution despite the challenges.",
+        "8": "External circumstances are creating opportunities for necessary endings, representing collective patterns of emotional evolution.",
+        "9": "Within you exists both the hope for new beginnings and the fear of the unknown—the tension between security and growth.",
+        "10": "The integration leads to what Jung called 'individuation'—the process of becoming more fully oneself through necessary departures."
+      }
+    },
+    {
+      "id": 8,
+        "name": "Nine of Cups",
+        "interpretations": {
+        "1": "You are experiencing emotional fulfillment—the satisfaction that comes from authentic connection and self-acceptance. The unconscious is highlighting the importance of emotional contentment.",
+        "2": "Your challenge involves balancing satisfaction with continued growth—appreciating what you have while remaining open to new possibilities.",
+        "3": "Your foundation includes experiences of emotional fulfillment that have taught you about the value of authentic connection.",
+        "4": "Recently, you've been experiencing a sense of emotional completion, activating the archetype of the Contented One who appreciates present blessings.",
+        "5": "Consciously, you seek emotional balance—the humanistic ideal of finding satisfaction in authentic connection.",
+        "6": "Approaching is an opportunity to experience Yesod—the foundation of emotional stability and contentment.",
+        "7": "You are embodying the archetype of the Satisfied One—one who finds joy in authentic emotional connection.",
+        "8": "External circumstances are creating opportunities for emotional fulfillment, representing collective patterns of contentment and connection.",
+        "9": "Within you exists both the hope for lasting satisfaction and the fear of complacency—the tension between contentment and growth.",
+        "10": "The integration leads to what humanistic psychology calls 'self-actualization'—the ability to find fulfillment in authentic emotional connection."
+      }
+    },
+    {
+      "id": 9,
+        "name": "Ten of Cups",
+        "interpretations": {
+        "1": "You are experiencing emotional completion—the fulfillment that comes from authentic connection with self and others. The unconscious is highlighting the importance of emotional wholeness.",
+        "2": "Your challenge involves maintaining authentic connection while honoring individual needs—finding the balance between unity and autonomy.",
+        "3": "Your foundation includes experiences of emotional wholeness that have taught you about the value of authentic connection.",
+        "4": "Recently, you've been experiencing a sense of emotional completion, activating the archetype of the Whole One who embodies authentic connection.",
+        "5": "Consciously, you seek emotional wholeness—the humanistic ideal of finding fulfillment in authentic connection.",
+        "6": "Approaching is an opportunity to experience Malkuth—the manifestation of emotional wholeness in daily life.",
+        "7": "You are embodying the archetype of the Integrated One—one who finds wholeness through authentic emotional connection.",
+        "8": "External circumstances are creating opportunities for emotional completion, representing collective patterns of wholeness and connection.",
+        "9": "Within you exists both the hope for perfect connection and the fear of losing individuality—the tension between unity and autonomy.",
+        "10": "The integration leads to what Jung called 'individuation'—the process of becoming whole through authentic emotional connection."
+      }
+    },
+    {
+      "id": 10,
+        "name": "Page of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional discovery—the innocent exploration of feelings and intuition. The unconscious is highlighting the importance of emotional openness.",
+        "2": "Your challenge involves balancing emotional openness with discernment—remaining receptive while developing wisdom.",
+        "3": "Your foundation includes experiences of emotional exploration that have shaped your current understanding of feelings.",
+        "4": "Recently, you've been called to explore new emotional territory, activating the archetype of the Seeker who approaches feelings with curiosity.",
+        "5": "Consciously, you seek emotional understanding—the humanistic ideal of learning through emotional experience.",
+        "6": "Approaching is an opportunity to experience Yesod—the foundation of emotional awareness and intuition.",
+        "7": "You are embodying the archetype of the Explorer—one who approaches emotional experience with openness and curiosity.",
+        "8": "External circumstances are creating opportunities for emotional discovery, representing collective patterns of emotional learning.",
+        "9": "Within you exists both the hope for perfect understanding and the fear of emotional vulnerability—the tension between openness and protection.",
+        "10": "The integration leads to what humanistic psychology calls 'emotional intelligence'—the ability to understand and navigate feelings with wisdom."
+      }
+    },
+    {
+      "id": 11,
+        "name": "Knight of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional pursuit—the active seeking of meaningful connection and creative expression. The unconscious is highlighting the importance of emotional action.",
+        "2": "Your challenge involves balancing emotional enthusiasm with discernment—pursuing meaningful connection while maintaining healthy boundaries.",
+        "3": "Your foundation includes experiences of emotional pursuit that have shaped your current approach to connection.",
+        "4": "Recently, you've been called to actively pursue emotional or creative goals, activating the archetype of the Seeker who follows the heart's call.",
+        "5": "Consciously, you seek meaningful connection—the humanistic ideal of pursuing authentic emotional experience.",
+        "6": "Approaching is an opportunity to experience Tiphareth—the harmonious balance of emotional pursuit and wisdom.",
+        "7": "You are embodying the archetype of the Pursuer—one who actively seeks meaningful emotional connection.",
+        "8": "External circumstances are creating opportunities for emotional pursuit, representing collective patterns of active connection.",
+        "9": "Within you exists both the hope for perfect connection and the fear of rejection—the tension between pursuit and protection.",
+        "10": "The integration leads to what Jung called 'the transcendent function'—the ability to pursue emotional goals with both passion and wisdom."
+      }
+    },
+    {
+      "id": 12,
+        "name": "Queen of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional wisdom—the deep understanding that comes from compassionate presence. The unconscious is highlighting the importance of emotional maturity.",
+        "2": "Your challenge involves balancing emotional receptivity with discernment—maintaining openness while exercising wisdom.",
+        "3": "Your foundation includes experiences of emotional depth that have shaped your current capacity for understanding.",
+        "4": "Recently, you've been called to embody emotional wisdom, activating the archetype of the Wise One who understands through feeling.",
+        "5": "Consciously, you seek emotional understanding—the humanistic ideal of wisdom that comes through compassionate presence.",
+        "6": "Approaching is an opportunity to experience Binah—the understanding that comes through emotional depth and intuition.",
+        "7": "You are embodying the archetype of the Wise One—one who understands through compassionate presence.",
+        "8": "External circumstances are creating opportunities for emotional wisdom, representing collective patterns of understanding through feeling.",
+        "9": "Within you exists both the hope for perfect understanding and the fear of emotional overwhelm—the tension between depth and protection.",
+        "10": "The integration leads to what Jung called 'the transcendent function'—the ability to hold emotional complexity with wisdom and compassion."
+      }
+    },
+    {
+      "id": 13,
+        "name": "King of Cups",
+        "interpretations": {
+        "1": "You are experiencing the energy of emotional mastery—the ability to navigate feelings with wisdom and compassion. The unconscious is highlighting the importance of emotional leadership.",
+        "2": "Your challenge involves balancing emotional authority with vulnerability—maintaining boundaries while remaining open to connection.",
+        "3": "Your foundation includes experiences of emotional leadership that have shaped your current approach to feelings.",
+        "4": "Recently, you've been called to embody emotional mastery, activating the archetype of the Leader who guides through wisdom and compassion.",
+        "5": "Consciously, you seek emotional wisdom—the humanistic ideal of leadership that comes through understanding and compassion.",
+        "6": "Approaching is an opportunity to experience Chokmah—the wisdom that comes through emotional mastery and understanding.",
+        "7": "You are embodying the archetype of the Master—one who navigates emotional complexity with wisdom and compassion.",
+        "8": "External circumstances are creating opportunities for emotional leadership, representing collective patterns of wisdom through feeling.",
+        "9": "Within you exists both the hope for perfect mastery and the fear of emotional responsibility—the tension between authority and vulnerability.",
+        "10": "The integration leads to what Jung called 'individuation'—the process of becoming emotionally whole through wisdom and compassion."
+      }
+    }
+  ]
+}

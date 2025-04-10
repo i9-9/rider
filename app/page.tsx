@@ -1,10 +1,23 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import TarotCardComponent from "@/components/tarot-card"
+import TarotCard from "@/components/tarot-card"
 import { tarotDeck } from "@/lib/tarot-data"
-import type { TarotCard } from "@/lib/tarot-data"
+import type { TarotCard as TarotCardType } from "@/lib/tarot-data"
 import Navbar from "@/components/navbar"
+
+const positionMapping = {
+  "Present Situation": "present",
+  "Challenge": "challenge",
+  "Subconscious Influences": "past",
+  "Recent Past": "past",
+  "Near Future": "future",
+  "Hopes and Fears": "hopes",
+  "Your Influence": "advice",
+  "External Influences": "external",
+  "Guidance": "advice",
+  "Outcome": "outcome"
+}
 
 const spreadPositions = [
   { position: 1, meaning: "Present Situation" },
@@ -20,7 +33,8 @@ const spreadPositions = [
 ]
 
 export default function Home() {
-  const [cards, setCards] = useState<TarotCard[]>([])
+  const [cards, setCards] = useState<TarotCardType[]>([])
+  const [isReversed, setIsReversed] = useState(false)
 
   useEffect(() => {
     drawCards()
@@ -49,7 +63,12 @@ export default function Home() {
                   <div className="text-center text-xs text-gray-400 mb-1">
                     {spreadPositions[index].position}. {spreadPositions[index].meaning}
                   </div>
-                  <TarotCardComponent card={card} priority={index < 2} />
+                  <TarotCard 
+                    card={card} 
+                    position={positionMapping[spreadPositions[index].meaning as keyof typeof positionMapping]}
+                    isReversed={isReversed}
+                    onFlip={() => setIsReversed(!isReversed)}
+                  />
                 </div>
               ))}
             </div>
@@ -61,7 +80,12 @@ export default function Home() {
                   <div className="text-center text-xs text-gray-400 mb-1">
                     {spreadPositions[index + 5].position}. {spreadPositions[index + 5].meaning}
                   </div>
-                  <TarotCardComponent card={card} />
+                  <TarotCard 
+                    card={card} 
+                    position={positionMapping[spreadPositions[index + 5].meaning as keyof typeof positionMapping]}
+                    isReversed={isReversed}
+                    onFlip={() => setIsReversed(!isReversed)}
+                  />
                 </div>
               ))}
             </div>

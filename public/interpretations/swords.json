@@ -1,0 +1,228 @@
+{
+    "swords": {
+      "ace": {
+        "id": "swords1",
+        "name": "Ace of Swords",
+        "interpretations": {
+          "1": "You are experiencing the primal clarity of mental illumination—the Yod of air descending into consciousness. The archetypal moment of breakthrough insight is active.",
+          "2": "Your challenge involves wielding the sword of truth responsibly—cutting through confusion without creating unnecessary division or harm.",
+          "3": "Your foundation includes moments of mental breakthrough—experiences where clear perception cut through confusion and revealed essential truth.",
+          "4": "Recently, new clarity or insight has entered your life, activating what Jung might call the 'logos principle' in its aspect of illuminating discrimination.",
+          "5": "Consciously, you seek intellectual precision and clarity—the philosophical commitment to truth regardless of comfort or convenience.",
+          "6": "Approaching is an opportunity to embody the spiritual air of Yetzirah—the pure essence of mental discernment before it becomes fixed as ideology.",
+          "7": "You are embodying the archetype of the Truth-Seeker—approaching reality with the sword of discrimination that separates essential truth from conditioned perception.",
+          "8": "External circumstances are providing breakthrough insights and clarity, representing collective evolutionary movement toward greater mental precision.",
+          "9": "Within you exists both the hope for perfect intellectual clarity and the fear of harsh truth—the shadow aspect of mental discrimination.",
+          "10": "The journey culminates in what philosophers call 'intellectual virtue'—the balanced application of rational discernment in service of wisdom rather than merely being right."
+        }
+      },
+      "two": {
+        "id": "swords2",
+        "name": "Two of Swords",
+        "interpretations": {
+          "1": "You are experiencing the tension of opposing mental perspectives—Chokmah expressing through air. The archetypal moment of necessary decision amid uncertainty is active.",
+          "2": "Your challenge involves finding the still point between opposing viewpoints—achieving inner peace through balanced consideration rather than forced resolution.",
+          "3": "Your foundation includes experiences of mental conflict—moments when competing ideas or values created inner tension requiring conscious mediation.",
+          "4": "Recently, you've been facing difficult choices or contradictions, activating the Mediator archetype that seeks harmony through higher synthesis.",
+          "5": "Consciously, you seek resolution of mental conflict—the philosophical quest for integration of apparent contradictions.",
+          "6": "Approaching is an opportunity to experience the balancing aspect of Moon in Libra—the intuitive wisdom that emerges when logical analysis reaches its limit.",
+          "7": "You are embodying the archetype of the Peaceful Warrior—maintaining inner calm while facing difficult choices and contradictory information.",
+          "8": "External circumstances are creating necessary mental tension, representing collective evolution through the resolution of opposing ideas.",
+          "9": "Within you exists both the hope for perfect resolution through higher wisdom and the fear of making wrong choices—the shadow aspect of decision.",
+          "10": "The integration leads to what Zen Buddhism calls 'the middle way'—the path that transcends dualistic thinking without denying the reality of distinctions."
+        }
+      },
+      "three": {
+        "id": "swords3",
+        "name": "Three of Swords",
+        "interpretations": {
+          "1": "You are experiencing the sorrow of mental conflict or heartbreak—Binah expressing through air. The archetypal moment of necessary pain that leads to understanding is active.",
+          "2": "Your challenge involves facing emotional pain with mental clarity—allowing grief or disappointment to deepen understanding rather than distort perception.",
+          "3": "Your foundation includes painful truths that shaped your worldview—experiences where ideals were pierced by reality, creating deeper wisdom through suffering.",
+          "4": "Recently, you've encountered painful clarity or separation, activating the Wounded Heart archetype that gains wisdom through necessary suffering.",
+          "5": "Consciously, you seek to understand the meaning of pain—the existential courage to face difficult truths rather than comfortable illusions.",
+          "6": "Approaching is an opportunity to experience the clarifying aspect of Saturn in Libra—the stern wisdom that comes when illusions are pierced by reality.",
+          "7": "You are embodying the archetype of the Truth-Bearer—facing painful realities with the courage that leads to authentic understanding rather than bitter cynicism.",
+          "8": "External circumstances are creating necessary disillusionment, representing collective evolution through the surrender of false or partial understandings.",
+          "9": "Within you exists both the hope that pain will lead to deeper wisdom and the fear of unbearable suffering—the shadow aspect of necessary disillusionment.",
+          "10": "The integration leads to what depth psychology calls 'earned wisdom'—the understanding that comes not through theory or teaching but through lived experience of difficulty."
+        }
+      },
+      "four": {
+        "id": "swords4",
+        "name": "Four of Swords",
+        "interpretations": {
+          "1": "You are experiencing the necessary rest after mental struggle—Chesed expressing through air. The archetypal moment of mental recuperation and integration is active.",
+          "2": "Your challenge involves allowing mental stillness—finding recovery through deliberate disengagement from conflict or excessive analysis.",
+          "3": "Your foundation includes experiences of recovery after mental exhaustion—periods when retreat and reflection allowed healing integration of difficult experiences.",
+          "4": "Recently, you've needed mental rest and recuperation, activating the Hermit archetype in its aspect of healing withdrawal.",
+          "5": "Consciously, you seek mental peace through temporary retreat—the wisdom that recognizes when striving must yield to recovery.",
+          "6": "Approaching is an opportunity to experience the stabilizing aspect of Jupiter in Libra—the expansive yet peaceful energy that heals through balanced perspective.",
+          "7": "You are embodying the archetype of the Contemplative—finding strength through deliberate stillness rather than continuous engagement.",
+          "8": "External circumstances are creating necessary pauses for integration, representing collective wisdom about the rhythm of action and recovery.",
+          "9": "Within you exists both the hope for perfect mental peace and the fear of disengagement or irrelevance—the shadow aspect of necessary withdrawal.",
+          "10": "The integration leads to what contemplative traditions call 'recollection'—the gathered mind that gains clarity not through effort but through allowing."
+        }
+      },
+      "five": {
+        "id": "swords5",
+        "name": "Five of Swords",
+        "interpretations": {
+          "1": "You are experiencing the aftermath of mental conflict—Geburah expressing through air. The archetypal moment of victory at a cost or necessary defeat is active.",
+          "2": "Your challenge involves learning from conflict—finding wisdom in the aftermath of disagreement without becoming cynical or vengeful.",
+          "3": "Your foundation includes experiences of intellectual or interpersonal defeat—moments when you learned about the limitations of purely mental approaches to life.",
+          "4": "Recently, you've faced situations of conflict or loss, activating the Defeated Warrior archetype that must find dignity beyond winning or losing.",
+          "5": "Consciously, you seek resolution after conflict—the ethical reflection on what constitutes true victory beyond mere dominance.",
+          "6": "Approaching is an opportunity to experience the challenging aspect of Venus in Aquarius—the difficult beauty that emerges when idealistic thinking confronts human limitation.",
+          "7": "You are embodying the archetype of the Survivor—moving beyond the binary of victory and defeat to the wisdom that recognizes the cost of all conflict.",
+          "8": "External circumstances are revealing the aftermath of mental or verbal battles, representing collective patterns of competition and their consequences.",
+          "9": "Within you exists both the hope for vindication through superior understanding and the fear of humiliation through defeat—the shadow aspects of intellectual conflict.",
+          "10": "The integration leads to what military strategists call 'the pyrrhic victory'—the sobering recognition that some forms of winning are indistinguishable from losing."
+        }
+      },
+      "six": {
+        "id": "swords6",
+        "name": "Six of Swords",
+        "interpretations": {
+          "1": "You are experiencing the necessary transition after difficulty—Tiphareth expressing through air. The archetypal moment of passage from turbulence to calmer waters is active.",
+          "2": "Your challenge involves accepting necessary transition—finding the courage to leave behind familiar troubles for unknown shores.",
+          "3": "Your foundation includes experiences of movement beyond conflict—periods when you made difficult passages from troubled circumstances toward greater peace.",
+          "4": "Recently, you've been navigating away from difficulty, activating the Ferryman archetype that guides transitions between mental or emotional states.",
+          "5": "Consciously, you seek relief from mental turbulence—the logical recognition that some problems are solved through strategic withdrawal rather than continued engagement.",
+          "6": "Approaching is an opportunity to experience the harmonizing aspect of Mercury in Aquarius—the intellectual clarity that comes with distance from emotional turbulence.",
+          "7": "You are embodying the archetype of the Pilgrim—one who moves deliberately away from familiar pain toward potential healing.",
+          "8": "External circumstances are creating passageways toward calmer conditions, representing collective wisdom about the necessity of strategic retreat.",
+          "9": "Within you exists both the hope for peaceful resolution through distance and the fear of carrying unresolved issues to new shores—the shadow aspect of transition.",
+          "10": "The integration leads to what systems theorists call 'adaptive transformation'—the conscious movement from dysfunctional to more functional states through strategic change."
+        }
+      },
+      "seven": {
+        "id": "swords7",
+        "name": "Seven of Swords",
+        "interpretations": {
+          "1": "You are experiencing the complex strategy of mental self-reliance—Netzach expressing through air. The archetypal moment of necessary cunning or unconventional approach is active.",
+          "2": "Your challenge involves discerning between strategic independence and deception—finding ethically appropriate ways to preserve autonomy or advantage.",
+          "3": "Your foundation includes experiences of intellectual independence—times when you had to rely on your own mental resources rather than conventional guidance.",
+          "4": "Recently, you've been facing situations requiring strategic thinking, activating the Trickster archetype that finds creative solutions outside standard approaches.",
+          "5": "Consciously, you seek effective strategies for complex situations—the pragmatic assessment of when direct methods must yield to indirect approaches.",
+          "6": "Approaching is an opportunity to experience the strategic aspect of Moon in Aquarius—the intuitive intelligence that perceives unconventional pathways forward.",
+          "7": "You are embodying the archetype of the Strategist—applying mental agility to navigate situations where conventional approaches would fail.",
+          "8": "External circumstances are requiring independent thinking and strategic action, representing collective evolution through the development of mental sovereignty.",
+          "9": "Within you exists both the hope for clever success through mental agility and the fear of moral compromise—the shadow aspects of strategic thinking.",
+          "10": "The integration leads to what ethicists call 'practical wisdom'—the mature capacity to discern appropriate means in complex situations without rigid adherence to either rules or outcomes."
+        }
+      },
+      "eight": {
+        "id": "swords8",
+        "name": "Eight of Swords",
+        "interpretations": {
+          "1": "You are experiencing the limitation of mental restriction—Hod expressing through air. The archetypal moment of feeling trapped by thoughts or beliefs is active.",
+          "2": "Your challenge involves recognizing self-imposed constraints—seeing how perception creates apparent limitation and how shifted awareness creates possibility.",
+          "3": "Your foundation includes experiences of mental restriction—times when beliefs or thought patterns created a sense of confinement and limited options.",
+          "4": "Recently, you've been feeling constrained by circumstances, activating the Prisoner archetype that must discover freedom within apparent limitation.",
+          "5": "Consciously, you seek liberation from mental restrictions—the philosophical recognition that many apparent external limitations begin as internal beliefs.",
+          "6": "Approaching is an opportunity to experience the restrictive aspect of Jupiter in Gemini—the paradoxical freedom that comes through acceptance of legitimate limits.",
+          "7": "You are embodying the archetype of the Bound One—discovering how the mind creates both prisons and keys through its power to interpret experience.",
+          "8": "External circumstances are revealing where thinking has created unnecessary restriction, representing collective patterns of limitation seeking conscious examination.",
+          "9": "Within you exists both the hope for liberation through awareness and the fear of helplessness—the shadow aspects of mental confinement.",
+          "10": "The integration leads to what existentialists call 'freedom through acceptance'—the discovery that acknowledging genuine limitations creates authentic choice within them."
+        }
+      },
+      "nine": {
+        "id": "swords9",
+        "name": "Nine of Swords",
+        "interpretations": {
+          "1": "You are experiencing the anguish of mental suffering—Yesod expressing through air. The archetypal moment of confronting fears and anxieties in their amplified night form is active.",
+          "2": "Your challenge involves facing fear with courage—acknowledging genuine anxiety without allowing it to become disproportionate through nighttime magnification.",
+          "3": "Your foundation includes experiences of psychological suffering—periods when worries or regrets created intense mental distress requiring conscious navigation.",
+          "4": "Recently, you've been facing intensified anxiety or grief, activating the Night Watcher archetype that must find wisdom within darkness.",
+          "5": "Consciously, you seek relief from mental suffering—the existential courage to face genuine fears without denial yet without unnecessary amplification.",
+          "6": "Approaching is an opportunity to experience the purifying aspect of Mars in Gemini—the mental clarity that comes when anxieties are consciously confronted rather than avoided.",
+          "7": "You are embodying the archetype of the Sufferer—experiencing the initiation that comes through consciously enduring rather than escaping mental pain.",
+          "8": "External circumstances are intensifying mental distress, representing collective patterns of anxiety seeking conscious integration rather than suppression.",
+          "9": "Within you exists both the fear of endless suffering and the hope for wisdom through darkness—the shadow and light aspects of mental anguish.",
+          "10": "The integration leads to what spiritual traditions call 'the dark night of the soul'—the necessary confrontation with fear and grief that precedes authentic spiritual awakening."
+        }
+      },
+      "ten": {
+        "id": "swords10",
+        "name": "Ten of Swords",
+        "interpretations": {
+          "1": "You are experiencing the completion of a mental cycle through radical ending—Malkuth expressing through air. The archetypal moment of absolute surrender after complete defeat is active.",
+          "2": "Your challenge involves accepting necessary endings—surrendering to the completion of a thought pattern, belief system, or mental approach that has run its course.",
+          "3": "Your foundation includes experiences of mental or ideological collapse—moments when established thought structures failed completely, creating space for new understanding.",
+          "4": "Recently, you've encountered decisive endings, activating the Phoenix archetype that must experience complete dissolution before rebirth.",
+          "5": "Consciously, you seek to accept the completion of cycles—the existential courage to face absolute endings without premature resurrection.",
+          "6": "Approaching is an opportunity to experience the terminating aspect of Sun in Gemini—the complete illumination that reveals when a mental approach has reached its absolute conclusion.",
+          "7": "You are embodying the archetype of the Surrendered—experiencing the paradoxical power that comes through complete acceptance of defeat or ending.",
+          "8": "External circumstances are creating definitive closure, representing collective evolutionary pressure toward complete release of outmoded mental frameworks.",
+          "9": "Within you exists both the fear of annihilation and the hope for rebirth—the shadow and light aspects of absolute endings.",
+          "10": "The integration leads to what mystical traditions call 'ego death'—the complete surrender of established identity that precedes authentic spiritual awakening."
+        }
+      },
+      "page": {
+        "id": "swords11",
+        "name": "Page of Swords",
+        "interpretations": {
+          "1": "You are experiencing the earth of air—the initial manifestation of mental energy and communication. The archetypal Curious Student eager for knowledge is prominent.",
+          "2": "Your challenge involves channeling intellectual enthusiasm effectively—developing focused inquiry rather than scattered curiosity.",
+          "3": "Your foundation includes formative experiences of intellectual discovery—moments when you first recognized your capacity for understanding complex ideas.",
+          "4": "Recently, you've encountered opportunities for new learning, activating the Student archetype in its aspect of eager engagement with ideas.",
+          "5": "Consciously, you seek intellectual stimulation and clarity—the philosophical drive to question and understand without predetermined conclusions.",
+          "6": "Approaching is an opportunity to experience the formative aspect of air—the initial structuring of thought and communication that provides foundation for deeper understanding.",
+          "7": "You are embodying the archetype of the Vigilant Observer—approaching ideas with alert perception and readiness to engage with mental challenges.",
+          "8": "External circumstances are providing opportunities for intellectual discovery, representing collective renewal through the fresh perception of beginners.",
+          "9": "Within you exists both the hope for perfect understanding and the fear of inadequacy or naivety—the shadow aspect of intellectual development.",
+          "10": "The journey culminates in what educational psychology calls 'critical thinking'—the discerning application of mental tools to complex problems."
+        }
+      },
+      "knight": {
+        "id": "swords12",
+        "name": "Knight of Swords",
+        "interpretations": {
+          "1": "You are experiencing the air of air—the swift movement of mental energy toward its target. The archetypal Zealous Warrior pursuing intellectual objectives is prominent.",
+          "2": "Your challenge involves channeling mental intensity productively—maintaining intellectual focus without becoming rigid or overly combative.",
+          "3": "Your foundation includes experiences of mental conviction—times when you pursued ideas with clarity, passion, and determination.",
+          "4": "Recently, you've felt called to take decisive mental action, activating the Crusader archetype that champions ideas with unwavering commitment.",
+          "5": "Consciously, you seek intellectual victory through focused argument—the logical application of mental force to overcome obstacles or opposition.",
+          "6": "Approaching is an opportunity to experience the penetrating aspect of air—the incisive mental energy that cuts through confusion to establish clarity.",
+          "7": "You are embodying the archetype of the Intellectual Warrior—pursuing truth with courage, determination, and single-minded focus.",
+          "8": "External circumstances are demanding decisive mental action, representing collective evolutionary pressure toward intellectual clarity amid confusion.",
+          "9": "Your psyche balances the hope for victory through superior reasoning with the fear of destructive conflict—the shadow aspect of intellectual combat.",
+          "10": "The integration leads to what philosophical traditions call 'dialectic'—the productive opposition of ideas that generates higher synthesis through conflict."
+        }
+      },
+      "queen": {
+        "id": "swords13",
+        "name": "Queen of Swords",
+        "interpretations": {
+          "1": "You are experiencing the water of air—the emotional intelligence that directs mental clarity. The archetypal Clear-Sighted Judge who perceives truth beyond deception is prominent.",
+          "2": "Your challenge involves balancing emotional wisdom with intellectual clarity—finding the courage to see truth clearly while maintaining compassion.",
+          "3": "Your foundation includes experiences of principled discernment—times when you separated truth from falsehood with both clarity and integrity.",
+          "4": "Recently, you've been called to embody objectivity amid complexity, activating the Wise Woman archetype that perceives essential truth beyond appearance.",
+          "5": "Consciously, you seek to maintain clear perception regardless of emotional pressure—the ethical commitment to truth that transcends personal preference.",
+          "6": "Approaching is an opportunity to experience the perceptive aspect of air—the penetrating insight that sees through illusion to underlying reality.",
+          "7": "You are embodying the archetype of the Truth Teller—maintaining intellectual integrity while recognizing how emotions both cloud and illuminate understanding.",
+          "8": "External circumstances are requiring objective discernment, representing collective evolution toward clarity that includes rather than excludes emotional wisdom.",
+          "9": "Within you exists both the hope for perfect discernment and the fear of coldness or isolation—the shadow aspect of intellectual clarity.",
+          "10": "The integration leads to what wisdom traditions call 'clear seeing'—the penetrating perception that transcends both emotional reactivity and detached intellectualism."
+        }
+      },
+      "king": {
+        "id": "swords14",
+        "name": "King of Swords",
+        "interpretations": {
+          "1": "You are experiencing the fire of air—the mature mastery of mental energy. The archetypal Just Authority who applies principles with wisdom is prominent.",
+          "2": "Your challenge involves wielding intellectual authority responsibly—applying clear judgment with both objectivity and compassion.",
+          "3": "Your foundation includes experiences of ethical leadership—times when you successfully applied principles to complex situations with both clarity and wisdom.",
+          "4": "Recently, you've been called to intellectual leadership, activating the Judge archetype that embodies dispassionate yet compassionate discernment.",
+          "5": "Consciously, you seek to apply universal principles to specific situations—the philosophical commitment to truth as guide for action.",
+          "6": "Approaching is an opportunity to experience the directing aspect of air—the mature application of mental clarity that creates order from confusion.",
+          "7": "You are embodying the archetype of the Wise Ruler—applying mental mastery to create just and effective order within your domain.",
+          "8": "External circumstances are requiring principled leadership, representing collective evolution toward governance through wisdom rather than force.",
+          "9": "Your psyche balances the hope for perfect justice through reason with the fear of cold intellectualism—the shadow aspect of mental authority.",
+          "10": "The integration leads to what Plato called 'philosopher-king'—the mature expression of reasoned authority guided by universal principles rather than personal interest."
+        }
+      }
+    }
+  }

@@ -1,0 +1,228 @@
+{
+    "pentacles": {
+      "ace": {
+        "id": "pentacles1",
+        "name": "Ace of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the primal seed of material manifestation—the Yod of earth descending into consciousness. The archetypal moment of new physical or financial potential is active.",
+          "2": "Your challenge involves recognizing and valuing the seed stage of manifestation—having patience with the process while taking practical first steps.",
+          "3": "Your foundation includes formative experiences with material resources—moments when you first recognized the sacred nature of physical embodiment and provision.",
+          "4": "Recently, new material opportunities have entered your life, activating what Jung might call the 'earth anima/animus' in its aspect of abundant potential.",
+          "5": "Consciously, you seek practical foundations for sustainable growth—the grounded approach that values tangible results over mere potential.",
+          "6": "Approaching is an opportunity to embody the spiritual earth of Assiah—the pure essence of material abundance before it takes specific form as possession.",
+          "7": "You are embodying the archetype of the Steward—approaching material resources with appreciation for their potential rather than attachment to specific outcomes.",
+          "8": "External circumstances are providing fertile ground for material development, representing collective evolution toward conscious relationship with physical reality.",
+          "9": "Within you exists both the hope for perfect material security and the fear of scarcity or loss—the shadow aspect of physical manifestation.",
+          "10": "The journey culminates in what Kabbalists call 'Malkuth consciousness'—the recognition that the material realm is the ultimate expression of divine energy rather than separate from it."
+        }
+      },
+      "two": {
+        "id": "pentacles2",
+        "name": "Two of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the dynamic balance of material resources—Chokmah expressing through earth. The archetypal moment of skillful adaptation to changing circumstances is active.",
+          "2": "Your challenge involves maintaining flexibility amid fluctuation—finding the rhythm that allows multiple commitments to be sustained without rigid control.",
+          "3": "Your foundation includes experiences of successful adaptation—moments when you learned to dance with changing circumstances rather than resist them.",
+          "4": "Recently, you've been called to juggle multiple practical concerns, activating the Dancer archetype that moves gracefully with rather than against life's rhythm.",
+          "5": "Consciously, you seek sustainable balance amid change—the practical wisdom that adapts to circumstances without losing essential priorities.",
+          "6": "Approaching is an opportunity to experience the balancing aspect of Jupiter in Capricorn—the expansive yet grounded energy that finds abundance through wise management.",
+          "7": "You are embodying the archetype of the Harmonizer—approaching practical matters with the playful adaptability that turns potential stress into creative dance.",
+          "8": "External circumstances are creating necessary fluctuations, representing collective evolution through the development of adaptability rather than rigid stability.",
+          "9": "Within you exists both the hope for perfect balance amid complexity and the fear of dropping the ball—the shadow aspect of multiple responsibilities.",
+          "10": "The integration leads to what systems theory calls 'dynamic equilibrium'—the balanced flow that maintains core stability through constant adaptive movement."
+        }
+      },
+      "three": {
+        "id": "pentacles3",
+        "name": "Three of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the manifestation of skill through collaboration—Binah expressing through earth. The archetypal moment of craftsmanship and teamwork is active.",
+          "2": "Your challenge involves integrating individual excellence with collaborative harmony—recognizing the interdependence that creates superior results.",
+          "3": "Your foundation includes experiences of skilled cooperation—moments when your individual abilities were enhanced through structured collaboration.",
+          "4": "Recently, you've been engaged in meaningful teamwork, activating the Master Craftsperson archetype that honors both hierarchy of skill and equality of contribution.",
+          "5": "Consciously, you seek tangible results through coordinated effort—the practical wisdom that values both expertise and effective cooperation.",
+          "6": "Approaching is an opportunity to experience the manifesting aspect of Mars in Capricorn—the focused energy that builds lasting structures through disciplined collaboration.",
+          "7": "You are embodying the archetype of the Skilled Collaborator—approaching practical matters with both personal excellence and awareness of interdependence.",
+          "8": "External circumstances are creating opportunities for meaningful teamwork, representing collective evolution toward specialized contribution within cooperative systems.",
+          "9": "Within you exists both the hope for perfect integration of individual talent with collective effort and the fear of inadequacy—the shadow aspect of performance in community.",
+          "10": "The integration leads to what organizational psychology calls 'flow state collaboration'—the synergistic performance that emerges when skilled individuals work in harmony."
+        }
+      },
+      "four": {
+        "id": "pentacles4",
+        "name": "Four of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the stabilization of material resources—Chesed expressing through earth. The archetypal moment of conservation and security-seeking is active.",
+          "2": "Your challenge involves finding security without constriction—establishing stable foundations while avoiding the trap of fearful hoarding.",
+          "3": "Your foundation includes experiences of material insecurity or hard-won stability—moments that shaped your approach to resource management.",
+          "4": "Recently, you've been focused on securing resources, activating the Steward archetype in its aspect of careful preservation and boundary-setting.",
+          "5": "Consciously, you seek material stability and protection—the pragmatic need for sufficient resources to support growth and exploration.",
+          "6": "Approaching is an opportunity to experience the stabilizing aspect of Sun in Capricorn—the grounding energy that builds sustainable foundations for long-term prosperity.",
+          "7": "You are embodying the archetype of the Guardian—protecting and preserving resources with the awareness that security can serve either as foundation or limitation.",
+          "8": "External circumstances are emphasizing the importance of financial boundaries, representing collective patterns of resource management amid uncertainty.",
+          "9": "Within you exists both the hope for perfect security through material means and the fear of scarcity despite abundance—the shadow aspect of material attachment.",
+          "10": "The integration leads to what financial advisors call 'abundance mindset with prudent boundaries'—the balanced approach that neither hoards from fear nor disperses from compulsion."
+        }
+      },
+      "five": {
+        "id": "pentacles5",
+        "name": "Five of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing material challenge or spiritual disconnection from resources—Geburah expressing through earth. The archetypal moment of testing through adversity is active.",
+          "2": "Your challenge involves maintaining faith amid material difficulty—finding spiritual resources when physical ones appear depleted.",
+          "3": "Your foundation includes experiences of material hardship—moments when external scarcity created the conditions for discovering inner abundance.",
+          "4": "Recently, you've faced situations of material challenge or exclusion, activating the Outsider archetype that must find belonging beyond conventional measures of worth.",
+          "5": "Consciously, you seek meaning beyond material circumstances—the existential recognition that true value transcends external measures of success.",
+          "6": "Approaching is an opportunity to experience the transformative aspect of Mercury in Taurus—the communication of deeper values that emerges when external validation is removed.",
+          "7": "You are embodying the archetype of the Seeker—experiencing the spiritual poverty that paradoxically opens awareness to non-material dimensions of value.",
+          "8": "External circumstances are creating necessary material challenges, representing collective evolution through the reevaluation of worth beyond possession.",
+          "9": "Within you exists both the fear of permanent exclusion from abundance and the hope for spiritual revelation through material challenge—the shadow and light aspects of adversity.",
+          "10": "The integration leads to what spiritual traditions call 'holy poverty'—the conscious relationship with material lack that reveals previously unrecognized resources."
+        }
+      },
+      "six": {
+        "id": "pentacles6",
+        "name": "Six of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the balance of giving and receiving—Tiphareth expressing through earth. The archetypal moment of conscious participation in the circulation of resources is active.",
+          "2": "Your challenge involves finding appropriate balance in exchange—developing awareness of power dynamics in giving and receiving without exploitation or martyrdom.",
+          "3": "Your foundation includes experiences of generosity and support—moments when the conscious circulation of resources revealed the interconnected nature of prosperity.",
+          "4": "Recently, you've been engaged in meaningful exchanges of value, activating the Benefactor/Recipient archetype that recognizes the sacred nature of balanced exchange.",
+          "5": "Consciously, you seek harmonious participation in resource circulation—the ethical awareness that true abundance involves both giving and receiving in appropriate measure.",
+          "6": "Approaching is an opportunity to experience the harmonizing aspect of Moon in Taurus—the intuitive wisdom that knows when to give and when to receive within natural cycles.",
+          "7": "You are embodying the archetype of the Conscious Participant—approaching material exchange with awareness of how energy flows through systems rather than accumulates in isolation.",
+          "8": "External circumstances are creating opportunities for meaningful exchange, representing collective evolution toward more conscious economic relationships.",
+          "9": "Within you exists both the hope for perfect equity in exchange and the fear of exploitation or dependency—the shadow aspects of material relationship.",
+          "10": "The integration leads to what economists call 'conscious capitalism'—the recognition that sustainable prosperity requires balanced consideration of all stakeholders."
+        }
+      },
+      "seven": {
+        "id": "pentacles7",
+        "name": "Seven of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the necessary patience of long-term development—Netzach expressing through earth. The archetypal moment of assessment during the growth process is active.",
+          "2": "Your challenge involves maintaining patience with natural timing—finding the balance between necessary effort and trusting the organic process of manifestation.",
+          "3": "Your foundation includes experiences of delayed gratification—moments when commitment to long-term processes yielded greater results than immediate returns.",
+          "4": "Recently, you've been evaluating progress in long-term endeavors, activating the Gardener archetype that understands the rhythm of seasons and necessary waiting.",
+          "5": "Consciously, you seek sustainable growth rather than quick returns—the practical wisdom that values enduring results over immediate gratification.",
+          "6": "Approaching is an opportunity to experience the developmental aspect of Saturn in Taurus—the structuring energy that builds solid achievements through disciplined patience.",
+          "7": "You are embodying the archetype of the Patient Developer—approaching material manifestation with respect for natural timing and organic growth processes.",
+          "8": "External circumstances are creating necessary pauses for assessment, representing collective wisdom about sustainability versus exploitation.",
+          "9": "Within you exists both the hope for abundant harvest through patience and the fear of wasted effort—the shadow aspects of long-term investment.",
+          "10": "The integration leads to what agrarian cultures call 'seasonal consciousness'—the mature attunement to natural cycles of effort and rest, growth and harvest."
+        }
+      },
+      "eight": {
+        "id": "pentacles8",
+        "name": "Eight of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the disciplined development of skill—Hod expressing through earth. The archetypal moment of dedicated craftsmanship and skill refinement is active.",
+          "2": "Your challenge involves maintaining focus on mastery—committing to excellence through sustained practice rather than seeking shortcuts or premature application.",
+          "3": "Your foundation includes experiences of skill development—periods when dedicated practice created measurable improvement and competence in practical matters.",
+          "4": "Recently, you've been engaged in focused skill building, activating the Apprentice archetype that finds meaning in the progressive mastery of tangible abilities.",
+          "5": "Consciously, you seek expertise through diligent application—the practical understanding that mastery comes through dedicated iteration rather than sporadic effort.",
+          "6": "Approaching is an opportunity to experience the skillful aspect of Sun in Virgo—the focused energy that develops concrete abilities through attention to detail.",
+          "7": "You are embodying the archetype of the Craftsperson—finding dignity and purpose in the methodical perfection of practical skills regardless of external recognition.",
+          "8": "External circumstances are supporting focused skill development, representing collective evolution toward valuing expertise and craftsmanship over shortcuts.",
+          "9": "Within you exists both the hope for perfect mastery through practice and the fear of tedium or inadequacy—the shadow aspects of skill development.",
+          "10": "The integration leads to what psychologists call 'flow state'—the absorbed engagement in skillful activity where challenge and ability align in optimal experience."
+        }
+      },
+      "nine": {
+        "id": "pentacles9",
+        "name": "Nine of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the refinement of self-sufficient abundance—Yesod expressing through earth. The archetypal moment of enjoying well-earned material and spiritual independence is active.",
+          "2": "Your challenge involves balancing self-reliance with interdependence—enjoying the fruits of personal achievement while maintaining connection with others.",
+          "3": "Your foundation includes experiences of earned independence—moments when your efforts created the conditions for both material comfort and personal sovereignty.",
+          "4": "Recently, you've achieved significant self-sufficiency, activating the Sovereign archetype that embodies dignified independence without isolation.",
+          "5": "Consciously, you seek refined enjoyment of well-earned resources—the aesthetic appreciation that transforms mere possession into cultured enjoyment.",
+          "6": "Approaching is an opportunity to experience the cultivated aspect of Venus in Virgo—the discriminating taste that creates beauty through careful selection and arrangement.",
+          "7": "You are embodying the archetype of the Graceful Achiever—enjoying the fruits of labor with dignity and refinement rather than ostentation or insecurity.",
+          "8": "External circumstances are supporting sustainable self-sufficiency, representing collective evolution toward conscious prosperity rather than compulsive consumption.",
+          "9": "Within you exists both the hope for perfect self-reliance and the fear of isolation—the shadow aspects of independence.",
+          "10": "The integration leads to what philosophers call 'eudaimonia'—the good life characterized by material sufficiency supporting higher pursuits rather than defining them."
+        }
+      },
+      "ten": {
+        "id": "pentacles10",
+        "name": "Ten of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the culmination of material and ancestral wealth—Malkuth expressing through earth. The archetypal moment of multi-generational abundance and legacy is active.",
+          "2": "Your challenge involves honoring tradition while allowing evolution—finding the balance between preserving valuable heritage and allowing necessary adaptation.",
+          "3": "Your foundation includes experiences of belonging within enduring systems—moments when you recognized your place within lineages of material or spiritual inheritance.",
+          "4": "Recently, you've been connecting with legacy considerations, activating the Elder archetype that considers impact beyond personal timeline.",
+          "5": "Consciously, you seek to create lasting value—the ethical commitment to building something that serves beyond personal benefit or lifetime.",
+          "6": "Approaching is an opportunity to experience the completing aspect of Mercury in Virgo—the communicative energy that transmits accumulated wisdom across generations.",
+          "7": "You are embodying the archetype of the Legacy Builder—approaching material resources with awareness of both ancestors and descendants rather than merely personal timeline.",
+          "8": "External circumstances are supporting consideration of long-term impact, representing collective evolution toward sustainable stewardship rather than exploitation.",
+          "9": "Within you exists both the hope for lasting impact beyond your lifetime and the fear of stagnation through excessive tradition—the shadow aspects of established systems.",
+          "10": "The integration leads to what sociologists call 'generativity'—the mature concern for establishing and guiding the next generation through conscious legacy building."
+        }
+      },
+      "page": {
+        "id": "pentacles11",
+        "name": "Page of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the earth of earth—the initial discovery of material potential and practical learning. The archetypal Studious Apprentice beginning material mastery is prominent.",
+          "2": "Your challenge involves maintaining patient enthusiasm for practical learning—developing foundational skills through consistent study rather than seeking immediate application.",
+          "3": "Your foundation includes formative experiences with tangible learning—moments when you discovered the satisfaction of developing practical knowledge or skills.",
+          "4": "Recently, you've encountered opportunities for practical study, activating the Student archetype in its aspect of grounded, methodical learning.",
+          "5": "Consciously, you seek to build reliable foundations of knowledge—the practical approach that values thorough understanding over quick results.",
+          "6": "Approaching is an opportunity to experience the receptive aspect of earth—the open perception that approaches material reality with beginner's mind.",
+          "7": "You are embodying the archetype of the Diligent Learner—approaching practical matters with both curiosity and methodical discipline.",
+          "8": "External circumstances are providing opportunities for foundational learning, representing collective renewal through the beginner's approach to practical matters.",
+          "9": "Within you exists both the hope for perfect practical understanding and the fear of inadequacy or slow progress—the shadow aspect of beginning material mastery.",
+          "10": "The journey culminates in what educators call 'foundational competence'—the solid groundwork of basic skills that enables future mastery and innovation."
+        }
+      },
+      "knight": {
+        "id": "pentacles12",
+        "name": "Knight of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the air of earth—the methodical planning and careful advancement toward material goals. The archetypal Reliable Builder making steady progress is prominent.",
+          "2": "Your challenge involves maintaining methodical persistence—advancing toward goals with consistent effort rather than sporadic bursts or premature abandonment.",
+          "3": "Your foundation includes experiences of consistent effort—times when steady application yielded reliable results despite lack of dramatic breakthroughs.",
+          "4": "Recently, you've been focused on methodical progress, activating the Laborer archetype that finds dignity in persistent effort rather than inspiration alone.",
+          "5": "Consciously, you seek reliable advancement through systematic approach—the practical understanding that consistent small steps create significant distance over time.",
+          "6": "Approaching is an opportunity to experience the structuring aspect of earth—the organizing energy that builds solid achievements through methodical planning.",
+          "7": "You are embodying the archetype of the Steady Advancer—approaching goals with the patient determination that prevents both impulsive mistakes and unnecessary delays.",
+          "8": "External circumstances are supporting methodical progress, representing collective evolution toward sustainable development rather than boom-and-bust cycles.",
+          "9": "Your psyche balances the hope for perfect reliability through method with the fear of stagnation—the shadow aspect of careful advancement.",
+          "10": "The integration leads to what project managers call 'sustainable momentum'—the balanced pace that maintains progress while preventing burnout or quality compromise."
+        }
+      },
+      "queen": {
+        "id": "pentacles13",
+        "name": "Queen of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the water of earth—the nurturing wisdom that creates material abundance through care rather than force. The archetypal Abundant Nurturer is prominent.",
+          "2": "Your challenge involves balancing practical provision with emotional nurturing—creating prosperity that serves holistic wellbeing rather than mere accumulation.",
+          "3": "Your foundation includes experiences of nurturing abundance—times when you created or experienced prosperity through careful attention to genuine needs.",
+          "4": "Recently, you've been called to embody practical nurturing, activating the Earth Mother archetype that sustains through attentive care rather than dramatic gesture.",
+          "5": "Consciously, you seek to manifest abundance through nurturing attention—the practical wisdom that recognizes how care creates prosperity.",
+          "6": "Approaching is an opportunity to experience the fertile aspect of earth—the generative energy that produces abundance through attentive cultivation rather than exploitation.",
+          "7": "You are embodying the archetype of the Prosperous Caretaker—approaching material resources with the nurturing attentiveness that increases rather than depletes value.",
+          "8": "External circumstances are responding to your nurturing practicality, representing collective wisdom about sustainable abundance through care rather than consumption.",
+          "9": "Within you exists both the hope for perfect material nurturing and the fear of depletion through giving—the shadow aspect of the provider archetype.",
+          "10": "The integration leads to what economists call 'sustainable stewardship'—the balanced approach that increases prosperity through nurturing care rather than exploitation."
+        }
+      },
+      "king": {
+        "id": "pentacles14",
+        "name": "King of Pentacles",
+        "interpretations": {
+          "1": "You are experiencing the fire of earth—the mature mastery of material resources and prosperity. The archetypal Prosperous Authority who creates abundance through wisdom is prominent.",
+          "2": "Your challenge involves wielding material authority responsibly—creating prosperity that benefits the wider community rather than merely personal interests.",
+          "3": "Your foundation includes experiences of material leadership—times when you successfully managed resources with both practical wisdom and ethical responsibility.",
+          "4": "Recently, you've been called to material leadership, activating the Provider King archetype that creates abundance through wise governance rather than exploitation.",
+          "5": "Consciously, you seek to manifest prosperity through mature leadership—the practical wisdom that builds sustainable abundance through sound principles.",
+          "6": "Approaching is an opportunity to experience the governing aspect of earth—the authoritative energy that creates order and abundance through principled management.",
+          "7": "You are embodying the archetype of the Abundant Ruler—approaching material resources with the mature responsibility that creates prosperity for all within your domain.",
+          "8": "External circumstances are requiring principled material leadership, representing collective evolution toward governance through abundance rather than scarcity mindset.",
+          "9": "Your psyche balances the hope for perfect material stewardship with the fear of corruption through wealth—the shadow aspect of material authority.",
+          "10": "The integration leads to what leadership experts call 'abundance leadership'—the mature expression of material authority that creates prosperity throughout systems rather than merely at the top."
+        }
+      }
+    }
+  }

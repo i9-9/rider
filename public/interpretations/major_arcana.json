@@ -1,0 +1,356 @@
+{
+  "majorArcana": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "interpretations": {
+        "1": "You stand at the threshold of infinite possibility, embodying the Aleph energy of pure potential. The unconscious is calling you to a journey of individuation that transcends conventional boundaries.",
+        "2": "Your challenge lies in balancing the Keter (crown) energies of divine potential with the grounding of Malkuth (kingdom). The unconscious is pushing against ego restrictions, creating necessary tension for growth.",
+        "3": "Your foundation contains a primal trust in life that Jung would identify as connection with the Self. A past willingness to transcend boundaries has shaped your current path.",
+        "4": "Recent experiences have awakened the archetypal innocent within you, dissolving calcified patterns and opening you to the unfiltered experience of being.",
+        "5": "Consciously, you seek freedom from conventional limitations, aspiring toward what Maslow called self-actualization—the authentic expression of your highest potential.",
+        "6": "The approaching energy invites you to embrace what Jung called 'synchronicity'—meaningful coincidences that appear random but guide your individuation process.",
+        "7": "You are embodying the archetype of the Divine Child—innocent yet wise, vulnerable yet protected by something greater than yourself. This receptivity shapes your experience.",
+        "8": "External circumstances are conspiring to break down rigid structures in your life, representing the collective unconscious urging your personal evolution.",
+        "9": "Within you exists both the hope for transcendent freedom and the fear of falling into the abyss of meaninglessness—polarities that must be integrated.",
+        "10": "The journey culminates in what the Kabbalists call Ain Soph—the limitless light of possibility. Integration of the Fool energy leads to enlightened innocence rather than naive foolishness."
+      }
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "interpretations": {
+        "1": "You are experiencing the Beth energy—the divine house of creation where conscious intention meets manifestation. The archetypal masculine principle of active will is prominent.",
+        "2": "Your challenge involves channeling the flow between Keter (divine crown) and Binah (understanding). The integration of conscious will and unconscious wisdom creates necessary tension.",
+        "3": "Your foundation includes experiences of causality and personal power—moments when you recognized your capacity as a co-creator with the universe.",
+        "4": "Recently, you've experienced an awakening to your agency, activating what Jung would call the Wise Old Man archetype in its youthful manifestation.",
+        "5": "Consciously, you seek mastery over your circumstances through the alignment of will, intellect, emotion, and action—the four elements of manifestation.",
+        "6": "Approaching is an opportunity to wield the transformative power of Tiphareth—the harmonizing beauty that bridges higher consciousness with material reality.",
+        "7": "You are embodying the archetype of the Shaman or Alchemist—one who transforms reality through conscious participation with the hidden laws of nature.",
+        "8": "External influences are providing the tools and catalysts needed for your transformative work, representing collective archetypes supporting your individual journey.",
+        "9": "Your psyche balances the hope of attaining masterful creation with the fear of responsibility for what you manifest—the shadow aspect of divine creative power.",
+        "10": "The integration leads to what humanistic psychology calls self-efficacy—the empowered knowledge that you can affect your reality while respecting natural and divine laws."
+      }
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "interpretations": {
+        "1": "You are immersed in the Gimel energy—the cosmic womb of possibility and intuitive knowledge. The veil between conscious and unconscious is exceptionally thin now.",
+        "2": "Your challenge involves reconciling rational knowledge with intuitive wisdom—the interplay between the logical left brain and the intuitive right brain hemispheres.",
+        "3": "Your foundation includes significant encounters with the numinous—moments when the archetypal feminine wisdom tradition touched your life.",
+        "4": "Recently, the anima/animus has been activated in your psyche, bringing messages from the unconscious that have shifted your perception.",
+        "5": "Consciously, you seek to understand the mysteries beyond rational explanation, drawn to the depth psychology that reveals the hidden layers of meaning.",
+        "6": "Approaching is a deeper initiation into Binah—understanding that comes not from intellectual pursuit but from direct revelation and intuitive knowing.",
+        "7": "You are embodying the archetype of the Seer—one who perceives beyond the veil of ordinary reality into the interconnected web of consciousness.",
+        "8": "External circumstances are creating a contemplative space, allowing collective unconscious wisdom to penetrate your awareness through dreams and synchronicities.",
+        "9": "Within you exists both the hope for mystical union with the divine feminine principle and the fear of being overwhelmed by the unconscious forces it contains.",
+        "10": "The journey culminates in what Jung called 'active imagination'—conscious dialogue with the unconscious that maintains awareness while accessing deeper wisdom."
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "interpretations": {
+        "1": "You are experiencing the Daleth energy—the doorway to abundance and creative manifestation. The Great Mother archetype is prominent in your present situation.",
+        "2": "Your challenge involves balancing receptivity with action—allowing natural processes to unfold while nurturing them appropriately without controlling or neglecting.",
+        "3": "Your foundation includes experiences of nurturing and abundance—either received or given—that have shaped your relationship with the material world.",
+        "4": "Recently, your connection to the natural world and bodily wisdom has increased, activating what Jung would call the positive mother complex in its generative aspect.",
+        "5": "Consciously, you seek to embody the principles of natural growth, abundance, and sensuality—embracing what humanistic psychology calls organismic valuing.",
+        "6": "Approaching is an opportunity to experience Netzach—the Venusian victory that comes through love rather than force, allowing natural attraction to manifest desires.",
+        "7": "You are embodying the archetype of the Nurturer—one who creates conditions for growth through compassionate presence rather than forceful intervention.",
+        "8": "External influences are providing fertile ground for your creative projects, representing the collective drive toward regeneration and renewal.",
+        "9": "Your psyche balances the hope for boundless creativity and abundance with the fear of overwhelming responsibility for what you birth into the world.",
+        "10": "The integration leads to what Maslow described as 'being cognition'—perception unclouded by deficiency needs, appreciating the inherent value in all life expressions."
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "interpretations": {
+        "1": "You are experiencing the Heh energy—the divine breath that structures and orders creation. The archetypal father principle of authority and organization is prominent.",
+        "2": "Your challenge involves wielding power with wisdom—establishing necessary boundaries without becoming rigid or authoritarian in your approach.",
+        "3": "Your foundation includes significant encounters with authority—either positive models of leadership or challenging experiences that shaped your relationship with power.",
+        "4": "Recently, the archetype of the King/Queen has been activated in your psyche, calling you to take greater responsibility for ordering your domain.",
+        "5": "Consciously, you seek to establish stable structures that support growth and protection—the Maslovian need for safety transformed into proactive security.",
+        "6": "Approaching is an opportunity to embody Geburah—the strength that comes from principled discipline and discernment, removing what does not serve the highest good.",
+        "7": "You are embodying the archetype of the Ruler—one who creates order from chaos through the application of rational principles and consistent boundaries.",
+        "8": "External circumstances are demanding greater structure and organization, representing collective needs for stability during transformative periods.",
+        "9": "Within you exists both the hope for masterful control over your domain and the fear of becoming rigid or tyrannical—the shadow aspect of the father archetype.",
+        "10": "The journey culminates in what Jung called 'the integration of the shadow'—conscious authority that includes compassion rather than compensation for insecurity."
+      }
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "interpretations": {
+        "1": "You are experiencing the Vav energy—the connecting hook between heaven and earth, tradition and innovation. The archetypal teacher who transmits wisdom is prominent.",
+        "2": "Your challenge involves discerning between empty dogma and living tradition—finding authentic spiritual connection within established forms without becoming constrained.",
+        "3": "Your foundation includes formative experiences with spiritual or educational institutions that shaped your understanding of how wisdom is transmitted.",
+        "4": "Recently, you've encountered the Wise Old Man/Woman archetype externally, activating your inner guru who recognizes the sacred in the ordinary.",
+        "5": "Consciously, you seek to understand the deeper meanings behind conventional wisdom—the transcendent function that bridges conscious and unconscious understanding.",
+        "6": "Approaching is an opportunity to connect with Chesed—the merciful wisdom that flows through compassionate teachers and established wisdom traditions.",
+        "7": "You are embodying the archetype of the Hierophant—one who sees beyond the veil of ordinary reality while remaining grounded in practical wisdom.",
+        "8": "External influences are providing traditional frameworks that paradoxically liberate rather than constrain, representing collective wisdom that transcends individual knowing.",
+        "9": "Your psyche balances the hope for transcendent understanding with the fear of blind conformity—the tension between security in tradition and freedom in direct knowing.",
+        "10": "The integration leads to what Maslow called 'transcendence'—moving beyond personal self-actualization to connect with something greater through established channels."
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "interpretations": {
+        "1": "You are experiencing the Zayin energy—the sword of discernment that divides and unites through conscious choice. The archetypes of anima/animus integration are prominent.",
+        "2": "Your challenge involves choosing alignment with your highest values while integrating opposing aspects of self—the sacred marriage of conscious and unconscious elements.",
+        "3": "Your foundation includes pivotal choices that aligned or misaligned you with your authentic nature—moments of integration or separation that shaped your path.",
+        "4": "Recently, you've experienced an awakening to relationship as a mirror for self-knowledge, activating the syzygy archetype of divine coupling.",
+        "5": "Consciously, you seek meaningful connection that honors both autonomy and union—the humanistic ideal of relationship as a vehicle for mutual growth.",
+        "6": "Approaching is an opportunity to experience Tiphareth—the harmonious beauty that emerges when opposing forces are reconciled in love rather than conflict.",
+        "7": "You are embodying the archetype of the Lover—one who chooses conscious relationship with self, others, and the divine as a path of transformation.",
+        "8": "External circumstances are presenting significant choices that reveal your values, representing collective evolutionary pressure toward greater integrity and authenticity.",
+        "9": "Within you exists both the hope for divine union with your complementary opposite and the fear of loss of self through merger—the paradox of intimacy.",
+        "10": "The journey culminates in what Jung called 'coniunctio'—the alchemical wedding of opposing forces within the psyche that creates the philosopher's stone of the authentic self."
+      }
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "interpretations": {
+        "1": "You are experiencing the Cheth energy—the fence that contains and directs powerful forces. The archetypal warrior who masters conflicting drives is prominent.",
+        "2": "Your challenge involves harnessing opposing energies toward a unified purpose—integrating shadow aspects to power forward movement rather than inner conflict.",
+        "3": "Your foundation includes experiences of both victory and defeat that taught you about willpower, determination, and the channeling of emotional energy.",
+        "4": "Recently, you've been called to take command of your life direction, activating the Hero archetype that overcomes obstacles through courage and skill.",
+        "5": "Consciously, you seek to direct your life force with focused intention—the existential commitment to meaningful action despite conflicting impulses.",
+        "6": "Approaching is an opportunity to experience Netzach through Geburah—victory through strength that comes when discipline and desire are perfectly aligned.",
+        "7": "You are embodying the archetype of the Charioteer—one who maintains centered awareness while directing powerful forces toward a chosen destination.",
+        "8": "External circumstances are testing your ability to maintain direction amid contrary influences, representing collective patterns of resistance and momentum.",
+        "9": "Your psyche balances the hope for mastery over life's journey with the fear of losing control—the eternal tension between will and surrender.",
+        "10": "The integration leads to what humanistic psychology calls 'agency'—the empowered ability to navigate life's complexities with both determination and adaptability."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "interpretations": {
+        "1": "You are experiencing the Teth energy—the serpentine life force that must be directed through gentle persistence rather than force. The integration of anima/animus is key.",
+        "2": "Your challenge involves developing soft power—the strength that comes through patience, compassion, and the feminine principle of receptive influence.",
+        "3": "Your foundation includes encounters with your own primal nature that taught you about the relationship between instinct and consciousness.",
+        "4": "Recently, you've been reconciling the civilized and wild aspects of your psyche, activating the archetype of the Tamer who befriends rather than subdues.",
+        "5": "Consciously, you seek to integrate raw passion with higher purpose—the humanistic ideal of channeling instinctual energy toward self-actualization.",
+        "6": "Approaching is an opportunity to experience Chesed through Geburah—mercy and strength perfectly balanced in what Kabbalists call the Middle Pillar of consciousness.",
+        "7": "You are embodying the archetype of the Compassionate Warrior—one who overcomes through love rather than dominance, recognizing that true power lies in integration.",
+        "8": "External circumstances are revealing where force fails and persistence succeeds, representing collective wisdom about sustainable versus exploitative approaches.",
+        "9": "Within you exists both the hope for harmonious integration of all aspects of self and the fear of being overwhelmed by untamed instinctual forces.",
+        "10": "The journey culminates in what Jung called 'the transcendent function'—the third option that emerges when opposing forces are held in conscious tension long enough."
+      }
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "interpretations": {
+        "1": "You are experiencing the Yod energy—the divine hand that points toward essential truth. The archetypal Wise Elder who has distilled wisdom through solitude is prominent.",
+        "2": "Your challenge involves finding the light of truth within rather than without—developing self-reliance while recognizing the interconnectedness of all wisdom.",
+        "3": "Your foundation includes periods of withdrawal and reflection that developed your inner compass and connection to transpersonal guidance.",
+        "4": "Recently, you've been called to step back from external validation, activating the Sage archetype that values wisdom over knowledge and being over doing.",
+        "5": "Consciously, you seek illumination through contemplative practice—the introspective journey that Maslow associated with peak experiences of self-actualization.",
+        "6": "Approaching is an opportunity to experience Chokmah—the wisdom that comes not through accumulation of facts but through direct perception of underlying patterns.",
+        "7": "You are embodying the archetype of the Hermit—one who withdraws from conventional society not to escape but to perceive more clearly what is essential.",
+        "8": "External circumstances are creating necessary solitude for deeper understanding, representing the collective need for contemplative space amid information overload.",
+        "9": "Your psyche balances the hope for perfect clarity and inner peace with the fear of isolation and irrelevance—the shadow aspects of the withdrawal journey.",
+        "10": "The integration leads to what Jung called 'individuation'—becoming undivided within yourself and thereby capable of authentic connection with others."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "interpretations": {
+        "1": "You are experiencing the Kaph energy—the grasping hand that both receives and releases as the wheel turns. The archetypal pattern of cyclical transformation is prominent.",
+        "2": "Your challenge involves surrendering to natural cycles while maintaining centered awareness—finding the still point at the center of change.",
+        "3": "Your foundation includes significant turning points that revealed the impermanent nature of circumstances and the importance of adaptability.",
+        "4": "Recently, you've encountered forces beyond personal control, activating the awareness of what Jung called 'circumambulation'—the spiral journey toward the Self.",
+        "5": "Consciously, you seek to understand the patterns behind apparent chaos—the meaningful coincidences that Jung termed 'synchronicity' guiding your journey.",
+        "6": "Approaching is an opportunity to experience Chesed and Geburah in their dynamic interplay—the expansion and contraction that creates the rhythm of meaningful growth.",
+        "7": "You are embodying the archetype of the Witness—one who observes the turning wheel from a place of acceptance rather than attachment or aversion.",
+        "8": "External circumstances are revealing the interconnectedness of all events, representing collective patterns that transcend individual control yet respond to consciousness.",
+        "9": "Within you exists both the hope for favorable turns of fortune and the fear of inevitable decline—the eternal human response to life's inherent uncertainty.",
+        "10": "The journey culminates in what Eastern traditions call 'equanimity'—the balanced awareness that remains steady as the wheel of circumstances continually turns."
+      }
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "interpretations": {
+        "1": "You are experiencing the Lamed energy—the ox-goad that directs movement toward balance and truth. The archetypal principle of cosmic equilibrium is prominent.",
+        "2": "Your challenge involves seeing clearly without bias—developing the discernment that recognizes natural consequences rather than imposed judgments.",
+        "3": "Your foundation includes formative experiences with fairness and accountability that shaped your understanding of cause and effect beyond simple morality.",
+        "4": "Recently, you've been called to examine the balance of giving and receiving in your life, activating the Judge archetype in its highest manifestation of impartiality.",
+        "5": "Consciously, you seek truth and fairness in all matters—the humanistic value of integrity that aligns inner conviction with outer action.",
+        "6": "Approaching is an opportunity to experience Geburah through Tiphareth—strength expressed as perfect harmony between intent and outcome, cause and effect.",
+        "7": "You are embodying the archetype of the Just One—seeing clearly the scales of cosmic law that measure not by human standards but by natural harmony.",
+        "8": "External circumstances are revealing where imbalance exists, representing collective karmic patterns seeking resolution through conscious rebalancing.",
+        "9": "Your psyche balances the hope for perfect justice and restoration with the fear of receiving exactly what you have given—the shadow of accountability.",
+        "10": "The integration leads to what Kabbalists call Din—divine judgment that functions not as punishment but as the loving restoration of cosmic balance."
+      }
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "interpretations": {
+        "1": "You are experiencing the Mem energy—the waters of conscious surrender and reversal of perspective. The archetypal willing sacrifice for higher understanding is prominent.",
+        "2": "Your challenge involves yielding to transpersonal wisdom—letting go of ego-driven action to allow intuitive understanding to emerge through receptivity.",
+        "3": "Your foundation includes moments when surrender led to unexpected illumination—times when the path forward appeared only after you stopped forcing direction.",
+        "4": "Recently, you've been suspended between worlds or perspectives, activating what Jung called 'the transcendent function' that mediates between conscious and unconscious.",
+        "5": "Consciously, you seek understanding that comes only through surrender—the transpersonal shift from doing to being that reveals previously hidden connections.",
+        "6": "Approaching is an opportunity to experience the depths of Binah—understanding that emerges when conventional thinking is deliberately inverted.",
+        "7": "You are embodying the archetype of the Mystic—one who willingly endures temporary discomfort for the sake of permanent transformation of consciousness.",
+        "8": "External circumstances are creating necessary pauses and reversals, representing collective patterns of initiation that require ego suspension.",
+        "9": "Within you exists both the hope for profound illumination through surrender and the fear of powerlessness or abandonment—the initiate's eternal dilemma.",
+        "10": "The journey culminates in what mystical traditions call 'kenosis'—the emptying that must precede filling with higher wisdom and expanded perception."
+      }
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "interpretations": {
+        "1": "You are experiencing the Nun energy—the fish that swims in the waters of collective unconscious transformation. The archetypal principle of necessary ending is prominent.",
+        "2": "Your challenge involves releasing what has completed its purpose—surrendering to the organic process of ending and renewal without resistance or premature action.",
+        "3": "Your foundation includes significant experiences of loss and rebirth that shaped your understanding of impermanence as a catalyst for essential growth.",
+        "4": "Recently, you've encountered the dissolution of established patterns, activating the Death/Rebirth archetype that Jung recognized as central to psychological transformation.",
+        "5": "Consciously, you seek to participate in necessary transformation—the existential courage to face finitude as the precondition for authentic living.",
+        "6": "Approaching is an opportunity to experience the revolutionary aspect of Geburah—the severity that clears away what has become stagnant to allow new life.",
+        "7": "You are embodying the archetype of the Transformer—one who recognizes that true power lies in the willingness to release rather than accumulate.",
+        "8": "External circumstances are enforcing necessary endings, representing collective evolutionary pressures that demand release of outmoded forms.",
+        "9": "Your psyche balances the hope for profound renewal through surrender with the fear of annihilation of identity—the ego's resistance to necessary transformation.",
+        "10": "The integration leads to what Jungians call 'psychological rebirth'—emergence of the authentic self only possible after the death of false identifications."
+      }
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "interpretations": {
+        "1": "You are experiencing the Samekh energy—the prop or support that maintains balance between opposing forces. The alchemical principle of tempering through moderation is key.",
+        "2": "Your challenge involves harmonizing apparently contradictory elements—finding the middle path that integrates rather than compromises opposing truths.",
+        "3": "Your foundation includes experiences of successful integration after conflict—moments when patience and careful blending created something greater than its parts.",
+        "4": "Recently, you've been engaged in subtle energetic exchanges, activating the alchemical Mediator archetype that Jung associated with the transcendent function.",
+        "5": "Consciously, you seek the golden mean between extremes—the humanistic ideal of balanced authenticity rather than rigid adherence to a single position.",
+        "6": "Approaching is an opportunity to experience Tiphareth—the solar center of the Tree of Life where all opposing forces find harmonious integration.",
+        "7": "You are embodying the archetype of the Alchemist—one who understands that transformation requires both the separation and recombination of elements.",
+        "8": "External circumstances are creating opportunities for previously opposed energies to combine, representing collective healing of artificial divisions.",
+        "9": "Within you exists both the hope for perfect harmony through integration and the fear of losing intensity through moderation—the shadow of the middle path.",
+        "10": "The journey culminates in what alchemists called the 'coniunctio'—the sacred marriage of opposing elements that produces the philosopher's stone of integrated consciousness."
+      }
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "interpretations": {
+        "1": "You are experiencing the Ayin energy—the eye that perceives material limitation and shadow aspects. The archetypal binding to unconscious patterns is prominent.",
+        "2": "Your challenge involves recognizing self-imposed restrictions—seeing how identification with material concerns or repressed desires creates apparent bondage.",
+        "3": "Your foundation includes encounters with the shadow—experiences where denied aspects of self or collective created situations of limitation or compulsion.",
+        "4": "Recently, you've been confronting repressed desires or fears, activating what Jung called 'the shadow' that contains both rejected darkness and disowned power.",
+        "5": "Consciously, you seek liberation from unconscious patterns—the existential courage to face and integrate what has been denied or projected.",
+        "6": "Approaching is an opportunity to experience the transformative aspect of Geburah—the severity that cuts through illusion to reveal authentic power.",
+        "7": "You are embodying the archetype of the Shadow—confronting the aspects of self that have been denied or projected onto others.",
+        "8": "External circumstances are revealing where you feel bound or limited, representing collective patterns of unconscious identification with material concerns.",
+        "9": "Within you exists both the hope for liberation from limitation and the fear of what might be revealed—the shadow aspect of transformation.",
+        "10": "The integration leads to what Jung called 'the integration of the shadow'—reclaiming disowned power and finding freedom through conscious relationship with all aspects of self."
+      }
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "interpretations": {
+        "1": "You are experiencing the Peh energy—the mouth that speaks truth and destroys illusion. The archetypal moment of sudden revelation and necessary destruction is prominent.",
+        "2": "Your challenge involves surrendering to necessary change—allowing structures that no longer serve to fall away without resistance or premature rebuilding.",
+        "3": "Your foundation includes experiences of sudden change—moments when established patterns were dramatically disrupted, forcing new perspectives.",
+        "4": "Recently, you've encountered situations that shattered previous certainties, activating the Destroyer archetype that clears space for authentic growth.",
+        "5": "Consciously, you seek truth and authenticity—the existential willingness to face necessary destruction of false structures.",
+        "6": "Approaching is an opportunity to experience the revolutionary aspect of Mars—the force that destroys what must be destroyed to allow authentic growth.",
+        "7": "You are embodying the archetype of the Catalyst—one who precipitates necessary change through direct confrontation with truth.",
+        "8": "External circumstances are enforcing dramatic change, representing collective evolutionary pressure toward greater authenticity.",
+        "9": "Within you exists both the hope for liberation through destruction and the fear of losing security—the shadow aspect of transformation.",
+        "10": "The integration leads to what Jung called 'the transcendent function'—the ability to hold the tension of opposites until a new perspective emerges."
+      }
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "interpretations": {
+        "1": "You are experiencing the Tzaddi energy—the fishhook that draws forth hope and inspiration. The archetypal moment of renewal and divine guidance is prominent.",
+        "2": "Your challenge involves maintaining faith in the midst of uncertainty—trusting in the process of renewal while taking practical steps toward healing.",
+        "3": "Your foundation includes experiences of divine guidance—moments when you felt connected to a higher purpose or received unexpected help.",
+        "4": "Recently, you've been experiencing a renewal of hope and inspiration, activating the Guide archetype that connects with higher wisdom.",
+        "5": "Consciously, you seek connection with higher guidance—the humanistic drive toward meaning and purpose beyond personal concerns.",
+        "6": "Approaching is an opportunity to experience the healing aspect of Aquarius—the universal love that flows through authentic connection.",
+        "7": "You are embodying the archetype of the Healer—one who channels divine energy for the benefit of self and others.",
+        "8": "External circumstances are creating opportunities for healing and renewal, representing collective evolution toward greater connection with the divine.",
+        "9": "Within you exists both the hope for perfect healing and the fear of disappointment—the shadow aspect of faith.",
+        "10": "The integration leads to what Jung called 'the Self'—the archetype of wholeness that guides the individuation process."
+      }
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "interpretations": {
+        "1": "You are experiencing the Qoph energy—the back of the head that perceives through intuition. The archetypal moment of facing the unconscious is prominent.",
+        "2": "Your challenge involves navigating through uncertainty—trusting intuition while maintaining discernment between illusion and truth.",
+        "3": "Your foundation includes experiences of the numinous—moments when you encountered the mysterious and inexplicable aspects of life.",
+        "4": "Recently, you've been called to explore the depths of your psyche, activating the Mystic archetype that journeys through the unconscious.",
+        "5": "Consciously, you seek to understand the hidden aspects of reality—the existential courage to face the unknown within and without.",
+        "6": "Approaching is an opportunity to experience the intuitive aspect of Pisces—the direct knowing that comes through surrender to the unconscious.",
+        "7": "You are embodying the archetype of the Dreamer—one who perceives through the lens of the unconscious rather than rational mind.",
+        "8": "External circumstances are revealing the illusory nature of appearances, representing collective evolution toward greater awareness of the unconscious.",
+        "9": "Within you exists both the hope for perfect understanding and the fear of madness—the shadow aspect of the unconscious journey.",
+        "10": "The integration leads to what Jung called 'active imagination'—conscious dialogue with the unconscious that maintains awareness while accessing deeper wisdom."
+      }
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "interpretations": {
+        "1": "You are experiencing the Resh energy—the head that perceives through direct awareness. The archetypal moment of enlightenment and conscious realization is prominent.",
+        "2": "Your challenge involves maintaining clarity amid complexity—seeing through illusion while remaining grounded in practical reality.",
+        "3": "Your foundation includes experiences of illumination—moments when you saw through confusion to recognize essential truth.",
+        "4": "Recently, you've been experiencing greater clarity and understanding, activating the Enlightened One archetype that sees with perfect awareness.",
+        "5": "Consciously, you seek truth and understanding—the humanistic drive toward greater awareness and authentic expression.",
+        "6": "Approaching is an opportunity to experience the illuminating aspect of the Sun—the direct perception that comes through conscious awareness.",
+        "7": "You are embodying the archetype of the Seer—one who perceives reality without distortion or projection.",
+        "8": "External circumstances are revealing truth and clarity, representing collective evolution toward greater consciousness.",
+        "9": "Within you exists both the hope for perfect understanding and the fear of responsibility—the shadow aspect of enlightenment.",
+        "10": "The integration leads to what Jung called 'individuation'—the process of becoming fully conscious and authentic in all aspects of life."
+      }
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "interpretations": {
+        "1": "You are experiencing the Shin energy—the tooth that discerns and transforms. The archetypal moment of awakening and rebirth is prominent.",
+        "2": "Your challenge involves responding to the call of transformation—answering the summons to greater authenticity and purpose.",
+        "3": "Your foundation includes experiences of awakening—moments when you recognized a higher calling or purpose.",
+        "4": "Recently, you've been called to a new level of awareness, activating the Awakened One archetype that responds to higher purpose.",
+        "5": "Consciously, you seek to fulfill your true purpose—the existential commitment to authentic self-expression.",
+        "6": "Approaching is an opportunity to experience the transformative aspect of Pluto—the power that destroys what must be destroyed to allow rebirth.",
+        "7": "You are embodying the archetype of the Awakened One—one who responds to the call of self-realization.",
+        "8": "External circumstances are creating opportunities for rebirth, representing collective evolution toward greater consciousness.",
+        "9": "Within you exists both the hope for perfect transformation and the fear of change—the shadow aspect of awakening.",
+        "10": "The integration leads to what Jung called 'the Self'—the archetype of wholeness that guides the individuation process."
+      }
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "interpretations": {
+        "1": "You are experiencing the Tav energy—the mark of completion and wholeness. The archetypal moment of integration and fulfillment is prominent.",
+        "2": "Your challenge involves embodying wholeness—integrating all aspects of self while remaining engaged with the world.",
+        "3": "Your foundation includes experiences of completion—moments when you felt fully present and integrated.",
+        "4": "Recently, you've been experiencing a sense of wholeness and fulfillment, activating the Integrated One archetype that embodies completeness.",
+        "5": "Consciously, you seek to express your authentic self—the humanistic drive toward full self-actualization.",
+        "6": "Approaching is an opportunity to experience the complete aspect of Saturn—the wisdom that comes through full integration of experience.",
+        "7": "You are embodying the archetype of the World Dancer—one who moves through life with grace and awareness.",
+        "8": "External circumstances are creating a sense of completion and integration, representing collective evolution toward conscious embodiment of wholeness.",
+        "9": "Your psyche balances the hope for perfect integration and fulfillment with the fear of stagnation after achievement—the shadow of completion.",
+        "10": "The journey culminates in what Jung called 'individuation'—becoming undivided within yourself and thereby able to perceive and participate in the undivided wholeness of life."
+      }
+    }
+  ]
+}

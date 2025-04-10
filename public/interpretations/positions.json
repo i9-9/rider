@@ -1,0 +1,54 @@
+{
+    "positions": [
+      {
+        "id": 1,
+        "name": "The Present",
+        "description": "This card represents the current situation and the energy surrounding the person in the present moment, revealing the essence of the question."
+      },
+      {
+        "id": 2,
+        "name": "The Challenge",
+        "description": "This card is placed across the first and represents the immediate obstacles or challenges that are creating tension within the self."
+      },
+      {
+        "id": 3,
+        "name": "The Foundation",
+        "description": "This card shows past influences that continue to affect the current situation, representing the subconscious roots of the matter."
+      },
+      {
+        "id": 4,
+        "name": "The Recent Past",
+        "description": "This card indicates events or energies that have just passed but still resonate in the present circumstance."
+      },
+      {
+        "id": 5,
+        "name": "Conscious Aims",
+        "description": "This card represents conscious thoughts, aspirations, and the persona that is presented to the world—the crown of awareness."
+      },
+      {
+        "id": 6,
+        "name": "The Future Unfolding",
+        "description": "This card shows approaching energies and potential developments that may manifest if the current trajectory continues."
+      },
+      {
+        "id": 7,
+        "name": "The Self",
+        "description": "This card reflects the querent's attitude toward the situation and how their self-concept is influencing the outcome."
+      },
+      {
+        "id": 8,
+        "name": "External Influence",
+        "description": "This card reveals external influences, the opinions of others, or the environmental factors affecting the situation—the collective unconscious at work."
+      },
+      {
+        "id": 9,
+        "name": "Hopes and Fears",
+        "description": "This card reflects the shadow aspects of hopes or fears related to the situation, often showing what is projected from the unconscious."
+      },
+      {
+        "id": 10,
+        "name": "Final Outcome",
+        "description": "This card shows the probable result if the current course continues, representing the integration of all energies at play."
+      }
+    ]
+  }

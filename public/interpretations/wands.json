@@ -1,0 +1,228 @@
+{
+    "wands": {
+      "ace": {
+        "id": "wands1",
+        "name": "Ace of Wands",
+        "interpretations": {
+          "1": "You are experiencing the primal spark of creative inspiration—the Yod of fire descending into consciousness. The archetypal seed of new passionate endeavors is active.",
+          "2": "Your challenge involves channeling initial enthusiasm into sustainable form—allowing the fire of inspiration to ignite action without burning out prematurely.",
+          "3": "Your foundation contains a spark of divine creativity that has influenced your approach to self-expression and passionate engagement with life.",
+          "4": "Recently, new inspiration or creative energy has entered your life, activating what Jung might call the 'puer/puella' archetype in its most positive aspect.",
+          "5": "Consciously, you seek to manifest new creative possibilities—the existential opening to previously untapped potential and authentic self-expression.",
+          "6": "Approaching is an opportunity to embody the spiritual fire of Atziluth—the pure essence of creative force before it takes specific form.",
+          "7": "You are embodying the archetype of the Creator at the moment of inception—poised between infinite potential and the first commitment to form.",
+          "8": "External circumstances are providing the perfect conditions for new beginnings, representing collective creative energy seeking expression through individuals.",
+          "9": "Within you exists both the hope for perfect manifestation of creative vision and the fear of false starts—the shadow aspect of inception.",
+          "10": "The journey culminates in what humanistic psychology calls 'peak experience'—the exhilarating alignment of passion, purpose, and possibility."
+        }
+      },
+      "two": {
+        "id": "wands2",
+        "name": "Two of Wands",
+        "interpretations": {
+          "1": "You are experiencing the initial expansion of creative will—Chokmah energy expressing through the element of fire. The archetypal moment of planning and envisioning is active.",
+          "2": "Your challenge involves balancing possibility with practicality—seeing both the grand vision and the necessary first steps without becoming overwhelmed by either.",
+          "3": "Your foundation includes experiences of creative planning and world-building—moments when you began to extend your will into new territory.",
+          "4": "Recently, you've been called to expand your horizons, activating the Visionary archetype that perceives potential beyond current limitations.",
+          "5": "Consciously, you seek to extend your creative influence—the existential stance of claiming your right to shape circumstances rather than merely respond to them.",
+          "6": "Approaching is an opportunity to experience the dominating aspect of Mars in Aries—the focused will that claims territory and establishes direction.",
+          "7": "You are embodying the archetype of the Pioneer—standing at the threshold between familiar territory and unexplored possibility.",
+          "8": "External circumstances are creating tension between current accomplishments and future potential, representing the collective evolutionary impulse toward expansion.",
+          "9": "Your psyche balances the hope for mastery over expanded territory with the fear of overextension—the shadow aspect of ambition.",
+          "10": "The integration leads to what Jung might call 'directed thinking'—the conscious application of will toward chosen aims rather than scattered enthusiasm."
+        }
+      },
+      "three": {
+        "id": "wands3",
+        "name": "Three of Wands",
+        "interpretations": {
+          "1": "You are experiencing the manifestation of creative vision—Binah energy expressing through fire. The archetypal moment of seeing your efforts bear initial fruit is active.",
+          "2": "Your challenge involves maintaining faith in expansion—trusting the process of growth while attending to necessary details of implementation.",
+          "3": "Your foundation includes experiences of successful collaboration and planning—moments when your vision began to take tangible form through combined efforts.",
+          "4": "Recently, you've been seeing early signs of success, activating the Entrepreneur archetype that recognizes opportunity and coordinates resources.",
+          "5": "Consciously, you seek to expand your creative influence—the humanistic drive to manifest personal vision in the wider world.",
+          "6": "Approaching is an opportunity to experience the expansive aspect of the Sun in Aries—the radiant growth that follows committed action.",
+          "7": "You are embodying the archetype of the Explorer—surveying new possibilities from a position of established strength rather than speculative imagination.",
+          "8": "External circumstances are supporting expansion of your influence, representing collective evolutionary movement toward broader expression.",
+          "9": "Your psyche balances the hope for successful growth beyond current boundaries with the fear of overextension—the eternal tension of expansion.",
+          "10": "The integration leads to what business psychology calls 'strategic vision'—the ability to see beyond immediate results to long-term possibilities."
+        }
+      },
+      "four": {
+        "id": "wands4",
+        "name": "Four of Wands",
+        "interpretations": {
+          "1": "You are experiencing the stabilization of creative accomplishment—Chesed energy expressing through fire. The archetypal moment of celebration and homecoming is active.",
+          "2": "Your challenge involves honoring achievements while maintaining momentum—finding the balance between satisfied completion and continued growth.",
+          "3": "Your foundation includes experiences of community celebration—moments when personal accomplishments were recognized and supported by others.",
+          "4": "Recently, you've reached a significant milestone, activating the Community Member archetype that recognizes the role of belonging in creative expression.",
+          "5": "Consciously, you seek to establish secure foundations for continued growth—the humanistic need for both achievement and belonging.",
+          "6": "Approaching is an opportunity to experience the stable aspect of Venus in Aries—the beauty that emerges when passionate creation finds harmonious form.",
+          "7": "You are embodying the archetype of the Celebrant—recognizing accomplishment not through solitary pride but through shared appreciation.",
+          "8": "External circumstances are creating opportunities for recognition and community, representing collective affirmation of individual contribution.",
+          "9": "Within you exists both the hope for perfect harmony between individual expression and community acceptance and the fear of stagnation—the shadow of established success.",
+          "10": "The integration leads to what sociologists call 'social capital'—the resource of community support that provides both stability and opportunity for further growth."
+        }
+      },
+      "five": {
+        "id": "wands5",
+        "name": "Five of Wands",
+        "interpretations": {
+          "1": "You are experiencing the conflict of competing creative energies—Geburah expressing through fire. The archetypal moment of testing through competition or chaos is active.",
+          "2": "Your challenge involves finding constructive outlets for conflict—transforming competitive tension into improved performance rather than destructive opposition.",
+          "3": "Your foundation includes experiences of creative struggle—moments when opposition or competition forced refinement of your abilities and clarification of intent.",
+          "4": "Recently, you've been facing situations of competitive struggle, activating the Competitor archetype that uses challenge to refine strengths.",
+          "5": "Consciously, you seek to establish your unique creative voice amid competing expressions—the existential struggle for authentic distinction.",
+          "6": "Approaching is an opportunity to experience the challenging aspect of Saturn in Leo—the disciplining pressure that transforms raw enthusiasm into focused excellence.",
+          "7": "You are embodying the archetype of the Warrior in Training—developing skill and strength through engagement with worthy opponents rather than easy victories.",
+          "8": "External circumstances are creating productive friction and challenge, representing collective evolution through the refinement that comes only through testing.",
+          "9": "Your psyche balances the hope for victory through superior skill with the fear of inadequacy revealed through competition—the shadow aspect of challenge.",
+          "10": "The integration leads to what sports psychology calls 'competitive flow'—the heightened performance that emerges through appropriate challenge rather than domination or avoidance."
+        }
+      },
+      "six": {
+        "id": "wands6",
+        "name": "Six of Wands",
+        "interpretations": {
+          "1": "You are experiencing the triumph of creative recognition—Tiphareth expressing through fire. The archetypal moment of victory and public acknowledgment is active.",
+          "2": "Your challenge involves handling success with grace—balancing deserved pride in achievement with humility and acknowledgment of supporting factors.",
+          "3": "Your foundation includes experiences of recognition and victory—moments when your unique gifts were publicly acknowledged and celebrated.",
+          "4": "Recently, you've received validation for your efforts, activating the Victor archetype that embodies the solar principle of rightful recognition.",
+          "5": "Consciously, you seek affirmation of your creative value—the humanistic need for acknowledgment of authentic contribution.",
+          "6": "Approaching is an opportunity to experience the victorious aspect of Jupiter in Leo—the expansive joy that comes through successful authentic expression.",
+          "7": "You are embodying the archetype of the Acknowledged Leader—one whose natural authority comes through demonstrated excellence rather than demanded respect.",
+          "8": "External circumstances are providing well-deserved recognition, representing collective acknowledgment of individual merit and contribution.",
+          "9": "Within you exists both the hope for continued recognition and the fear of future failure or rejection—the shadow aspect of public success.",
+          "10": "The integration leads to what psychology calls 'healthy pride'—the balanced self-appreciation that neither diminishes accomplishment nor inflates its importance."
+        }
+      },
+      "seven": {
+        "id": "wands7",
+        "name": "Seven of Wands",
+        "interpretations": {
+          "1": "You are experiencing the challenge of defending creative territory—Netzach expressing through fire. The archetypal moment of standing your ground amid opposition is active.",
+          "2": "Your challenge involves maintaining conviction amid challenge—defending your position with confidence while remaining open to valid criticism.",
+          "3": "Your foundation includes experiences of standing alone for your beliefs—moments when you had to defend your creative vision against doubt or opposition.",
+          "4": "Recently, you've been called to defend your position, activating the Defender archetype that maintains boundaries around authentic expression.",
+          "5": "Consciously, you seek to preserve the integrity of your vision—the existential courage to stand for your truth despite external pressure to conform.",
+          "6": "Approaching is an opportunity to experience the protective aspect of Mars in Leo—the focused energy that establishes necessary boundaries around creative expression.",
+          "7": "You are embodying the archetype of the Courageous Protector—defending what you value not from fear but from conviction in its inherent worth.",
+          "8": "External circumstances are testing your commitment to your expressed values, representing collective evolution through principled resistance to homogenization.",
+          "9": "Within you exists both the hope for victory through courage and the fear of being overwhelmed by opposition—the shadow aspect of necessary defense.",
+          "10": "The integration leads to what existentialists call 'authentic courage'—the committed stance that defends truth not from egoic attachment but from recognition of essential value."
+        }
+      },
+      "eight": {
+        "id": "wands8",
+        "name": "Eight of Wands",
+        "interpretations": {
+          "1": "You are experiencing the swift movement of creative energy—Hod expressing through fire. The archetypal moment of acceleration and aligned momentum is active.",
+          "2": "Your challenge involves coordinating rapid developments—maintaining direction and coherence amid accelerating events and opportunities.",
+          "3": "Your foundation includes experiences of synchronized action—moments when multiple factors aligned to create swift forward movement.",
+          "4": "Recently, you've encountered a surge of energy or opportunity, activating the Mercury archetype that transmits and coordinates multiple streams of information or activity.",
+          "5": "Consciously, you seek effective expression through coordinated action—the strategic intelligence that maximizes momentum through alignment.",
+          "6": "Approaching is an opportunity to experience the swift aspect of Mercury in Sagittarius—the rapid transmission of inspired vision through effective communication channels.",
+          "7": "You are embodying the archetype of the Messenger—transmitting essential information or energy with precision and timeliness.",
+          "8": "External circumstances are creating accelerated movement and opportunity, representing collective evolutionary pressure toward more effective transmission of consciousness.",
+          "9": "Within you exists both the hope for perfect timing and coordination and the fear of missing crucial details in haste—the shadow aspect of swift movement.",
+          "10": "The integration leads to what systems theory calls 'flow state'—the optimal experience of aligned action where effort seems effortless and time perception shifts."
+        }
+      },
+      "nine": {
+        "id": "wands9",
+        "name": "Nine of Wands",
+        "interpretations": {
+          "1": "You are experiencing the resilience born of struggle—Yesod expressing through fire. The archetypal moment of vigilant perseverance after repeated challenge is active.",
+          "2": "Your challenge involves maintaining stamina without becoming rigid—finding the balance between necessary vigilance and paranoid defensiveness.",
+          "3": "Your foundation includes experiences of enduring hardship—moments when you discovered inner resources through prolonged resistance or struggle.",
+          "4": "Recently, you've been tested through repeated challenges, activating the Survivor archetype that finds strength through adversity rather than ease.",
+          "5": "Consciously, you seek to protect hard-won territory—the existential determination to maintain integrity despite fatigue or temptation to compromise.",
+          "6": "Approaching is an opportunity to experience the resilient aspect of Moon in Sagittarius—the intuitive strength that perseveres through emotional awareness rather than denial.",
+          "7": "You are embodying the archetype of the Wounded Warrior—drawing power from vulnerability rather than invulnerability, finding courage in acknowledging fear.",
+          "8": "External circumstances are testing your capacity for endurance, representing collective patterns of initiation through progressive challenge.",
+          "9": "Within you exists both the hope for final victory through persistence and the fear of imminent defeat despite all efforts—the shadow aspect of prolonged struggle.",
+          "10": "The integration leads to what psychology calls 'post-traumatic growth'—the deepened capacity and wisdom that emerges only through successfully navigated adversity."
+        }
+      },
+      "ten": {
+        "id": "wands10",
+        "name": "Ten of Wands",
+        "interpretations": {
+          "1": "You are experiencing the burden of excessive responsibility—Malkuth expressing through fire. The archetypal moment of oppression through overcommitment is active.",
+          "2": "Your challenge involves recognizing unsustainable patterns—discerning between necessary responsibility and self-imposed burdens that diminish creative power.",
+          "3": "Your foundation includes experiences of overextension—moments when taking on too much revealed the limitations of even the strongest will and energy.",
+          "4": "Recently, you've found yourself overwhelmed by responsibilities, activating the Overburdened archetype that must learn the wisdom of appropriate limitation.",
+          "5": "Consciously, you seek to fulfill all obligations—the ethical commitment to completion that can become self-destructive when taken to excess.",
+          "6": "Approaching is an opportunity to experience the limiting aspect of Saturn in Sagittarius—the necessary restriction that reveals the wisdom of focused effort versus dispersed energy.",
+          "7": "You are embodying the archetype of the Burdened One—learning through excessive weight what cannot be learned through unobstructed movement.",
+          "8": "External circumstances are creating unsustainable demands, representing collective patterns of imbalance between aspiration and sustainable capacity.",
+          "9": "Within you exists both the hope for recognition through heroic effort and the fear of collapse under pressure—the shadow aspect of ambition divorced from wisdom.",
+          "10": "The integration leads to what Taoists call 'wu-wei'—the effortless effort that comes when action aligns with natural capacity rather than egoic striving."
+        }
+      },
+      "page": {
+        "id": "wands11",
+        "name": "Page of Wands",
+        "interpretations": {
+          "1": "You are experiencing the earth of fire—the grounding of creative inspiration into initial form. The archetypal Eternal Youth embarking on creative adventures is prominent.",
+          "2": "Your challenge involves sustaining enthusiasm through practical learning—balancing eager exploration with the patience to develop true mastery.",
+          "3": "Your foundation includes formative experiences of creative discovery—moments when you first recognized your passion or talent for self-expression.",
+          "4": "Recently, you've encountered opportunities for fresh exploration, activating what Jung called the 'puer/puella' archetype in its aspect of enthusiastic messenger.",
+          "5": "Consciously, you seek new creative experiences and knowledge—the humanistic drive toward expansive learning through direct engagement.",
+          "6": "Approaching is an opportunity to experience the enthusiastic aspect of fire—the contagious energy that inspires others through authentic excitement rather than expertise.",
+          "7": "You are embodying the archetype of the Enthusiast—approaching life with fresh eyes and eager exploration rather than jaded familiarity.",
+          "8": "External circumstances are providing opportunities for new learning through experience, representing collective renewal through the energy of beginners.",
+          "9": "Within you exists both the hope for perfect expression of budding talents and the fear of immaturity or inadequacy—the shadow aspect of the novice.",
+          "10": "The journey culminates in what educators call 'discovery learning'—knowledge gained through enthusiastic exploration rather than rote instruction."
+        }
+      },
+      "knight": {
+        "id": "wands12",
+        "name": "Knight of Wands",
+        "interpretations": {
+          "1": "You are experiencing the air of fire—the swift movement of creative energy toward its target. The archetypal Passionate Warrior taking decisive action is prominent.",
+          "2": "Your challenge involves channeling impulsive energy productively—maintaining forward momentum without rushing past important details or burning out.",
+          "3": "Your foundation includes experiences of passionate pursuit—times when you moved decisively toward creative goals with courage and confidence.",
+          "4": "Recently, you've felt called to take bold action, activating the Hero archetype in its aspect of courageous advance toward desired aims.",
+          "5": "Consciously, you seek immediate expression of creative impulses—the existential commitment to authentic action rather than hesitation or overthinking.",
+          "6": "Approaching is an opportunity to experience the swift aspect of fire—the transformative power of decisive movement that changes potential into reality.",
+          "7": "You are embodying the archetype of the Adventurer—pursuing your passion with courage, charisma, and complete commitment in the moment.",
+          "8": "External circumstances are demanding decisive action and quick responses, representing collective evolutionary pressure toward creative adaptation.",
+          "9": "Your psyche balances the hope for glorious achievement through bold action with the fear of impulsive errors—the shadow aspect of heroic energy.",
+          "10": "The integration leads to what existentialists call 'committed action'—authentic expression of purpose through decisive movement despite uncertainty."
+        }
+      },
+      "queen": {
+        "id": "wands13",
+        "name": "Queen of Wands",
+        "interpretations": {
+          "1": "You are experiencing the water of fire—the emotional intelligence that directs creative energy. The archetypal Passionate Nurturer who inspires through presence is prominent.",
+          "2": "Your challenge involves sustaining inner fire while remaining receptive—balancing self-expression with awareness of how your energy affects others.",
+          "3": "Your foundation includes experiences of confident self-expression—times when you allowed your authentic fire to shine without dimming it to accommodate others.",
+          "4": "Recently, you've been called to embody magnetic confidence, activating the Solar aspect of the anima/animus that radiates creative energy.",
+          "5": "Consciously, you seek to express passion with emotional intelligence—the humanistic integration of power and warmth in authentic presence.",
+          "6": "Approaching is an opportunity to experience the receptive aspect of fire—the attractive force that inspires through being rather than doing.",
+          "7": "You are embodying the archetype of the Magnetic Presence—one whose authentic self-expression naturally draws others toward their own creative potential.",
+          "8": "External circumstances are responding to your emotional authenticity, representing collective resonance with uninhibited yet compassionate self-expression.",
+          "9": "Within you exists both the hope for perfect expression of passionate authenticity and the fear of overwhelming others—the shadow aspect of charismatic presence.",
+          "10": "The integration leads to what humanistic psychology calls 'congruence'—the alignment of inner fire with outer expression that creates authentic presence."
+        }
+      },
+      "king": {
+        "id": "wands14",
+        "name": "King of Wands",
+        "interpretations": {
+          "1": "You are experiencing the fire of fire—the mature mastery of creative energy. The archetypal Visionary Leader who transforms environments through creative will is prominent.",
+          "2": "Your challenge involves wielding creative power responsibly—directing passion with wisdom and restraint while maintaining its essential force.",
+          "3": "Your foundation includes experiences of creative leadership—times when you successfully channeled your vision into reality while inspiring others.",
+          "4": "Recently, you've been called to take command of creative endeavors, activating the Solar aspect of consciousness that integrates vision with authority.",
+          "5": "Consciously, you seek to manifest your vision with mature confidence—the existential stance of claiming full responsibility for creative expression.",
+          "6": "Approaching is an opportunity to experience the directing aspect of fire—the transformative leadership that turns collective potential into coordinated action.",
+          "7": "You are embodying the archetype of the Creator King/Queen—expressing vision with such authentic authority that others naturally align with its manifestation.",
+          "8": "External circumstances are responding to your confident direction, representing collective evolution through conscious leadership rather than domination.",
+          "9": "Your psyche balances the hope for masterful creation through mature leadership with the fear of misusing power—the shadow aspect of creative authority.",
+          "10": "The integration leads to what Jung might call 'the mature masculine'—the directed application of creative will with wisdom, restraint, and full accountability."
+        }
+      }
+    }
+  }

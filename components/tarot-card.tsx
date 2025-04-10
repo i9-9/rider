@@ -1,16 +1,14 @@
 "use client"
 
 import Image from "next/image"
-import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
 import majorArcanaData from "@/public/interpretations/major_arcana.json"
 import wandsData from "@/public/interpretations/wands.json"
 import cupsData from "@/public/interpretations/cups.json"
 import swordsData from "@/public/interpretations/swords.json"
 import pentaclesData from "@/public/interpretations/pentacles.json"
-import { Card as TarotCardData } from "@/lib/tarot-data"
+import type { TarotCard } from "@/lib/tarot-data"
 
 type PositionNumber = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10"
 
@@ -44,7 +42,7 @@ type MajorArcanaCard = {
 }
 
 interface TarotCardProps {
-  card: TarotCardData
+  card: TarotCard
   position?: string
   isReversed?: boolean
   onFlip?: () => void
@@ -58,7 +56,7 @@ export default function TarotCard({ card, position, isReversed = false, onFlip }
   useEffect(() => {
     if (card.arcana === "major") {
       setImagePath(`/images/major_arcana_${card.name.toLowerCase().replace(/\s+/g, '_')}.png`)
-    } else {
+    } else if (card.suit) {
       const value = card.name.split(' of ')[0].toLowerCase()
       const suit = card.suit.toLowerCase()
       setImagePath(`/images/${suit}_${value}.png`)

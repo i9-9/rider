@@ -1,9 +1,10 @@
-export type TarotCard = {
+export interface TarotCard {
   name: string
   arcana: "major" | "minor"
-  suit?: string
+  suit?: "Cups" | "Pentacles" | "Swords" | "Wands"
   uprightMeaning: string
   reversedMeaning: string
+  position?: "present" | "challenge" | "past" | "future" | "above" | "below" | "advice" | "external" | "hopes" | "outcome"
 }
 
 // Major Arcana
@@ -12,7 +13,8 @@ export const majorArcana: TarotCard[] = [
     name: "The Fool",
     arcana: "major",
     uprightMeaning: "New beginnings, spontaneity, a leap of faith",
-    reversedMeaning: "Recklessness, risk-taking, poor judgment"
+    reversedMeaning: "Recklessness, risk-taking, lack of direction",
+    position: "present"
   },
   {
     name: "The Magician",

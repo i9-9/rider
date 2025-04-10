@@ -10,6 +10,7 @@ import wandsData from "@/public/interpretations/wands.json"
 import cupsData from "@/public/interpretations/cups.json"
 import swordsData from "@/public/interpretations/swords.json"
 import pentaclesData from "@/public/interpretations/pentacles.json"
+import { Card as TarotCardData } from "@/lib/tarot-data"
 
 type PositionNumber = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10"
 
@@ -33,70 +34,32 @@ interface CardInterpretation {
 }
 
 interface MinorCardData {
-  id: number
+  id: string
   name: string
   interpretations: Record<PositionNumber, string>
 }
 
 interface TarotCardProps {
-  card: {
-    name: string
-    suit?: string
-    arcana: "major" | "minor"
-    uprightMeaning?: string
-    reversedMeaning?: string
-  }
-  position: string
-  isReversed: boolean
+  card: TarotCardData
+  position?: string
+  isReversed?: boolean
+  onFlip?: () => void
 }
 
-export default function TarotCardComponent({ card, position, isReversed }: TarotCardProps) {
+export default function TarotCard({ card, position, isReversed = false, onFlip }: TarotCardProps) {
   const [isRevealed, setIsRevealed] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [imagePath, setImagePath] = useState("")
 
   useEffect(() => {
-    setIsRevealed(false)
-    setIsModalOpen(false)
-  }, [card])
-
-  // Generate the correct image path based on card type
-  let imagePath: string
-  if (card.arcana === "major") {
-    // For major arcana: major_arcana_[cardName].png
-    // Handle special cases
-    const cardName = card.name.toLowerCase().replace(/^the /, '')
-    if (cardName === 'hanged man') {
-      imagePath = '/images/major_arcana_hanged.png'
-    } else if (cardName === 'high priestess') {
-      imagePath = '/images/major_arcana_priestess.png'
-    } else if (cardName === 'wheel of fortune') {
-      imagePath = '/images/major_arcana_fortune.png'
+    if (card.arcana === "major") {
+      setImagePath(`/images/major_arcana_${card.name.toLowerCase().replace(/\s+/g, '_')}.png`)
     } else {
-      imagePath = `/images/major_arcana_${cardName.replace(/ /g, '_')}.png`
+      const value = card.name.split(' of ')[0].toLowerCase()
+      const suit = card.suit.toLowerCase()
+      setImagePath(`/images/${suit}_${value}.png`)
     }
-  } else {
-    // For minor arcana: minor_arcana_[suitName]_[number].png or minor_arcana_[suit]_[character].png
-    const cardValue = card.name.toLowerCase().split(' of ')[0]
-    // Convert number words to digits for numbered cards
-    const numberMap: { [key: string]: string } = {
-      'ace': 'ace',
-      'two': '2',
-      'three': '3',
-      'four': '4',
-      'five': '5',
-      'six': '6',
-      'seven': '7',
-      'eight': '8',
-      'nine': '9',
-      'ten': '10',
-      'page': 'page',
-      'knight': 'knight',
-      'queen': 'queen',
-      'king': 'king'
-    }
-    const numericValue = numberMap[cardValue] || cardValue
-    imagePath = `/images/minor_arcana_${card.suit?.toLowerCase()}_${numericValue}.png`
-  }
+  }, [card])
 
   const getInterpretation = () => {
     if (!position) {
@@ -132,7 +95,7 @@ export default function TarotCardComponent({ card, position, isReversed }: Tarot
       const cardKey = card.name.toLowerCase().split(' of ')[0]
       console.log('Minor card key:', cardKey)
       
-      let cardData: any
+      let cardData: MinorCardData | undefined
       switch (card.suit) {
         case "Wands":
           console.log('Looking for Wands card:', cardKey)
@@ -170,62 +133,45 @@ export default function TarotCardComponent({ card, position, isReversed }: Tarot
   }
 
   return (
-    <div className="w-[200px]">
+    <div className="relative w-64 h-[28rem]">
       <div 
-        className="cursor-pointer"
-        onClick={() => {
-          if (!isRevealed) {
-            setIsRevealed(true)
-          } else {
-            setIsModalOpen(true)
-          }
-        }}
+        className={`absolute inset-0 transition-transform duration-500 ${isRevealed ? 'rotate-y-180' : ''}`}
+        style={{ transformStyle: 'preserve-3d' }}
       >
-        <Card className="overflow-hidden aspect-[2/3] flex items-center justify-center bg-black border border-white/20">
-          <CardContent className="p-0 w-full h-full">
-            <AnimatePresence mode="wait">
-              {!isRevealed ? (
-                <motion.div
-                  key="back"
-                  initial={{ rotateY: 0 }}
-                  animate={{ rotateY: 0 }}
-                  exit={{ rotateY: 90 }}
-                  transition={{ duration: 0.3 }}
-                  className="w-full h-full relative bg-gradient-to-br from-purple-900 to-black"
-                >
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 border-2 border-white/20 rounded-full flex items-center justify-center">
-                      <div className="w-12 h-12 border-2 border-white/20 rounded-full" />
-                    </div>
-                  </div>
-                </motion.div>
-              ) : (
-                <motion.div
-                  key="front"
-                  initial={{ rotateY: -90 }}
-                  animate={{ rotateY: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="w-full h-full relative"
-                >
-                  <Image
-                    src={imagePath}
-                    alt={card.name}
-                    fill
-                    priority={true}
-                    loading="eager"
-                    quality={75}
-                    className={`object-contain ${isReversed ? 'rotate-180' : ''}`}
-                    onError={(e) => {
-                      console.error(`Failed to load image for ${card.name} at path: ${imagePath}`)
-                      const target = e.target as HTMLImageElement
-                      target.src = '/images/major_arcana_fool.png'
-                    }}
-                  />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </CardContent>
-        </Card>
+        <div 
+          className="absolute inset-0 backface-hidden cursor-pointer"
+          onClick={() => {
+            setIsRevealed(true)
+            setIsModalOpen(true)
+            onFlip?.()
+          }}
+        >
+          <Image
+            src="/images/card_back.png"
+            alt="Card Back"
+            fill
+            priority={true}
+            loading="eager"
+            quality={75}
+            className="object-contain"
+          />
+        </div>
+        <div className="absolute inset-0 backface-hidden">
+          <Image
+            src={imagePath}
+            alt={card.name}
+            fill
+            priority={true}
+            loading="eager"
+            quality={75}
+            className={`object-contain ${isReversed ? 'rotate-180' : ''}`}
+            onError={(e) => {
+              console.error(`Failed to load image for ${card.name} at path: ${imagePath}`)
+              const target = e.target as HTMLImageElement
+              target.src = '/images/major_arcana_fool.png'
+            }}
+          />
+        </div>
       </div>
       {isRevealed && (
         <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>

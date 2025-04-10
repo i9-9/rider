@@ -26,13 +26,17 @@ const positionToNumber: Record<string, PositionNumber> = {
   "outcome": "10"
 }
 
-interface CardInterpretation {
-  id: string | number
+type MinorArcanaCard = {
+  id: string
   name: string
   interpretations: Record<PositionNumber, string>
 }
 
-interface MinorCardData {
+type MinorArcanaSuit = {
+  [key: string]: MinorArcanaCard
+}
+
+type MajorArcanaCard = {
   id: number
   name: string
   interpretations: Record<PositionNumber, string>
@@ -48,9 +52,10 @@ interface TarotCardProps {
   }
   position: string
   isReversed: boolean
+  onFlip?: () => void
 }
 
-export default function TarotCardComponent({ card, position, isReversed }: TarotCardProps) {
+export default function TarotCardComponent({ card, position, isReversed, onFlip }: TarotCardProps) {
   const [isRevealed, setIsRevealed] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -114,12 +119,13 @@ export default function TarotCardComponent({ card, position, isReversed }: Tarot
       position,
       positionNumber,
       arcana: card.arcana,
-      suit: card.suit
+      suit: card.suit,
+      isReversed
     })
 
     if (card.arcana === "major") {
       console.log('Searching for major arcana card:', card.name)
-      const majorCard = majorArcanaData.majorArcana.find(m => m.name === card.name)
+      const majorCard = (majorArcanaData.majorArcana as unknown as MajorArcanaCard[]).find(m => m.name === card.name)
       console.log('Found major card:', majorCard)
       if (!majorCard) {
         console.log('Major card not found')
@@ -132,26 +138,26 @@ export default function TarotCardComponent({ card, position, isReversed }: Tarot
       const cardKey = card.name.toLowerCase().split(' of ')[0]
       console.log('Minor card key:', cardKey)
       
-      let cardData: any
+      let cardData: MinorArcanaCard | undefined
       switch (card.suit) {
         case "Wands":
           console.log('Looking for Wands card:', cardKey)
-          cardData = wandsData.wands[cardKey as keyof typeof wandsData.wands]
+          cardData = (wandsData.wands as unknown as MinorArcanaSuit)[cardKey]
           console.log('Found Wands data:', cardData)
           break
         case "Cups":
           console.log('Looking for Cups card:', cardKey)
-          cardData = cupsData.cups[cardKey as keyof typeof cupsData.cups]
+          cardData = (cupsData.cups as unknown as MinorArcanaSuit)[cardKey]
           console.log('Found Cups data:', cardData)
           break
         case "Swords":
           console.log('Looking for Swords card:', cardKey)
-          cardData = swordsData.swords[cardKey as keyof typeof swordsData.swords]
+          cardData = (swordsData.swords as unknown as MinorArcanaSuit)[cardKey]
           console.log('Found Swords data:', cardData)
           break
         case "Pentacles":
           console.log('Looking for Pentacles card:', cardKey)
-          cardData = pentaclesData.pentacles[cardKey as keyof typeof pentaclesData.pentacles]
+          cardData = (pentaclesData.pentacles as unknown as MinorArcanaSuit)[cardKey]
           console.log('Found Pentacles data:', cardData)
           break
       }
@@ -178,6 +184,9 @@ export default function TarotCardComponent({ card, position, isReversed }: Tarot
             setIsRevealed(true)
           } else {
             setIsModalOpen(true)
+            if (onFlip) {
+              onFlip()
+            }
           }
         }}
       >

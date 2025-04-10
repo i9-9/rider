@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import TarotCard from "@/components/tarot-card"
-import { tarotDeck } from "@/lib/tarot-data"
+import { allCards } from "@/lib/tarot-data"
 import type { TarotCard as TarotCardType } from "@/lib/tarot-data"
 import Navbar from "@/components/navbar"
 
@@ -42,7 +42,7 @@ export default function Home() {
 
   function drawCards() {
     // Shuffle the cards
-    const shuffled = [...tarotDeck].sort(() => Math.random() - 0.5)
+    const shuffled = [...allCards].sort(() => Math.random() - 0.5)
     
     // Take first 10 cards for Celtic Cross spread
     const selectedCards = shuffled.slice(0, 10)

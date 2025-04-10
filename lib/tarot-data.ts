@@ -145,7 +145,7 @@ export const majorArcana: TarotCard[] = [
 ]
 
 // Minor Arcana - Wands
-const wands: TarotCard[] = [
+export const wands: TarotCard[] = [
   {
     name: "Ace of Wands",
     arcana: "minor",
@@ -247,7 +247,7 @@ const wands: TarotCard[] = [
 ]
 
 // Minor Arcana - Cups
-const cups: TarotCard[] = [
+export const cups: TarotCard[] = [
   {
     name: "Ace of Cups",
     arcana: "minor",
@@ -349,7 +349,7 @@ const cups: TarotCard[] = [
 ]
 
 // Minor Arcana - Swords
-const swords: TarotCard[] = [
+export const swords: TarotCard[] = [
   {
     name: "Ace of Swords",
     arcana: "minor",
@@ -451,7 +451,7 @@ const swords: TarotCard[] = [
 ]
 
 // Minor Arcana - Pentacles
-const pentacles: TarotCard[] = [
+export const pentacles: TarotCard[] = [
   {
     name: "Ace of Pentacles",
     arcana: "minor",
@@ -552,5 +552,8 @@ const pentacles: TarotCard[] = [
   }
 ]
 
-// Combine all cards into a single deck
-export const tarotDeck: TarotCard[] = [...majorArcana, ...wands, ...cups, ...swords, ...pentacles]
+// Combine all minor arcana cards
+export const minorArcana: TarotCard[] = [...wands, ...cups, ...swords, ...pentacles]
+
+// Combine all cards
+export const allCards: TarotCard[] = [...majorArcana, ...minorArcana]

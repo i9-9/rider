@@ -3,12 +3,15 @@
 import Image from "next/image"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { useState, useEffect } from "react"
+import { motion, AnimatePresence } from "framer-motion"
 import majorArcanaData from "@/public/interpretations/major_arcana.json"
 import wandsData from "@/public/interpretations/wands.json"
 import cupsData from "@/public/interpretations/cups.json"
 import swordsData from "@/public/interpretations/swords.json"
 import pentaclesData from "@/public/interpretations/pentacles.json"
 import type { TarotCard } from "@/lib/tarot-data"
+import { getCardImagePath } from "@/lib/card-utils"
+import { Card, CardContent } from "@/components/ui/card"
 
 type PositionNumber = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10"
 
@@ -54,13 +57,7 @@ export default function TarotCard({ card, position, isReversed = false, onFlip }
   const [imagePath, setImagePath] = useState("")
 
   useEffect(() => {
-    if (card.arcana === "major") {
-      setImagePath(`/images/major_arcana_${card.name.toLowerCase().replace(/\s+/g, '_')}.png`)
-    } else if (card.suit) {
-      const value = card.name.split(' of ')[0].toLowerCase()
-      const suit = card.suit.toLowerCase()
-      setImagePath(`/images/${suit}_${value}.png`)
-    }
+    setImagePath(getCardImagePath(card))
   }, [card])
 
   const getInterpretation = () => {
@@ -136,7 +133,7 @@ export default function TarotCard({ card, position, isReversed = false, onFlip }
   }
 
   return (
-    <div className="relative w-64 h-[28rem]">
+    <div className="w-[200px]">
       <div 
         className="cursor-pointer"
         onClick={() => {
@@ -150,40 +147,51 @@ export default function TarotCard({ card, position, isReversed = false, onFlip }
           }
         }}
       >
-        <div 
-          className="absolute inset-0 backface-hidden cursor-pointer"
-          onClick={() => {
-            setIsRevealed(true)
-            setIsModalOpen(true)
-            onFlip?.()
-          }}
-        >
-          <Image
-            src="/images/card_back.png"
-            alt="Card Back"
-            fill
-            priority={true}
-            loading="eager"
-            quality={75}
-            className="object-contain"
-          />
-        </div>
-        <div className="absolute inset-0 backface-hidden">
-          <Image
-            src={imagePath}
-            alt={card.name}
-            fill
-            priority={true}
-            loading="eager"
-            quality={75}
-            className={`object-contain ${isReversed ? 'rotate-180' : ''}`}
-            onError={(e) => {
-              console.error(`Failed to load image for ${card.name} at path: ${imagePath}`)
-              const target = e.target as HTMLImageElement
-              target.src = '/images/major_arcana_fool.png'
-            }}
-          />
-        </div>
+        <Card className="overflow-hidden aspect-[2/3] flex items-center justify-center bg-black border border-white/20">
+          <CardContent className="p-0 w-full h-full">
+            <AnimatePresence mode="wait">
+              {!isRevealed ? (
+                <motion.div
+                  key="back"
+                  initial={{ rotateY: 0 }}
+                  animate={{ rotateY: 0 }}
+                  exit={{ rotateY: 90 }}
+                  transition={{ duration: 0.3 }}
+                  className="w-full h-full relative bg-gradient-to-br from-purple-900 to-black"
+                >
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-16 h-16 border-2 border-white/20 rounded-full flex items-center justify-center">
+                      <div className="w-12 h-12 border-2 border-white/20 rounded-full" />
+                    </div>
+                  </div>
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="front"
+                  initial={{ rotateY: -90 }}
+                  animate={{ rotateY: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src={imagePath}
+                    alt={card.name}
+                    fill
+                    priority={true}
+                    loading="eager"
+                    quality={75}
+                    className={`object-contain ${isReversed ? 'rotate-180' : ''}`}
+                    onError={(e) => {
+                      console.error(`Failed to load image for ${card.name} at path: ${imagePath}`)
+                      const target = e.target as HTMLImageElement
+                      target.src = '/images/major_arcana_fool.png'
+                    }}
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </CardContent>
+        </Card>
       </div>
       {isRevealed && (
         <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>

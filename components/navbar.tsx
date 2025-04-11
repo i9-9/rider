@@ -81,11 +81,11 @@ export function Navbar({ onDrawCards, cards = [], positions = [] }: NavbarProps)
                   About
                 </Button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-2xl bg-black text-white border-white/20">
+              <DialogContent className="sm:max-w-2xl bg-black text-white border-white/20 max-h-[90vh] overflow-y-auto pt-8">
                 <DialogHeader>
-                  <DialogTitle className="text-white">About Celtic Cross Tarot Reading</DialogTitle>
+                  <DialogTitle className="text-white text-base">About Celtic Cross Tarot Reading</DialogTitle>
                 </DialogHeader>
-                <div className="space-y-4">
+                <div className="space-y-4 pb-8">
                   <p className="text-gray-400">
                     The Celtic Cross is one of the most popular and widely used tarot spreads. It&apos;s a comprehensive spread that provides insight into a specific situation or question, offering both immediate and long-term perspectives.
                   </p>
@@ -107,6 +107,22 @@ export function Navbar({ onDrawCards, cards = [], positions = [] }: NavbarProps)
                   <p className="text-gray-400">
                     The Celtic Cross spread is particularly useful for gaining insight into complex situations, understanding the dynamics at play, and identifying potential paths forward.
                   </p>
+                  <div className="mt-12 pt-6 border-t border-white/20">
+                    <h3 className="text-white font-semibold mb-2 text-sm">About the Interpretations</h3>
+                    <p className="text-gray-400">
+                      The card interpretations in this reading draw from multiple esoteric and psychological traditions:
+                    </p>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-400 mt-2">
+                      <li><strong className="text-white">Jungian Psychology:</strong> Archetypes, the collective unconscious, and the process of individuation</li>
+                      <li><strong className="text-white">Kabbalah:</strong> The Tree of Life, sephiroth, and the path of spiritual ascent</li>
+                      <li><strong className="text-white">Alchemy:</strong> The process of transformation and the integration of opposites</li>
+                      <li><strong className="text-white">Humanistic Psychology:</strong> Self-actualization, authenticity, and personal growth</li>
+                      <li><strong className="text-white">Existential Philosophy:</strong> Meaning-making, choice, and personal responsibility</li>
+                    </ul>
+                    <p className="text-gray-400 mt-4">
+                      These interpretations aim to provide a rich, multi-layered understanding of each card&apos;s meaning, connecting the personal with the archetypal, and the psychological with the spiritual.
+                    </p>
+                  </div>
                 </div>
               </DialogContent>
             </Dialog>

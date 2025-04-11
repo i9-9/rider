@@ -63,7 +63,7 @@ export default function Home() {
       <Navbar onDrawCards={drawCards} />
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="max-w-6xl w-full">
-          <h1 className="text-4xl font-bold mb-8 text-white">Celtic Cross Tarot Reading</h1>
+          <h1 className="text-2xl font-bold mb-8 pt-4 text-white">Celtic Cross Tarot Reading</h1>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {/* First row - 5 cards */}
             <div className="col-span-2 md:col-span-5 grid grid-cols-2 md:grid-cols-5 gap-3">

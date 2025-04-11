@@ -12,7 +12,7 @@ import { getCardImagePath } from "@/lib/card-utils"
 
 function EncyclopediaCard({ card }: { card: TarotCard }) {
   return (
-    <div className="w-[200px]">
+    <div className="w-[180px]">
       <Card className="overflow-hidden aspect-[2/3] flex items-center justify-center bg-black border border-white/20">
         <CardContent className="p-0 w-full h-full">
           <div className="w-full h-full relative">
@@ -54,7 +54,7 @@ export default function EncyclopediaPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="max-w-7xl mx-auto"
         >
           <div className="mb-8 space-y-4">
             <Input
@@ -98,10 +98,10 @@ export default function EncyclopediaPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
             {filteredCards.map((card) => (
               <motion.div
-                key={card.id}
+                key={`${card.name}-${card.arcana}-${card.suit || ''}`}
                 whileHover={{ scale: 1.05 }}
                 className="cursor-pointer"
                 onClick={() => setSelectedCard(card)}

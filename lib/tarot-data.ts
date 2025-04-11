@@ -1,554 +1,792 @@
 export interface TarotCard {
+  id: number
   name: string
-  arcana: "major" | "minor"
-  suit?: "Cups" | "Pentacles" | "Swords" | "Wands"
-  uprightMeaning: string
-  reversedMeaning: string
-  position?: "present" | "challenge" | "past" | "future" | "above" | "below" | "advice" | "external" | "hopes" | "outcome"
+  arcana: 'major' | 'minor'
+  suit?: string
+  number?: number
+  interpretations: {
+    upright: string
+    reversed: string
+  }
+  isReversed?: boolean
 }
 
 // Major Arcana
 export const majorArcana: TarotCard[] = [
   {
+    id: 0,
     name: "The Fool",
     arcana: "major",
-    uprightMeaning: "New beginnings, spontaneity, a leap of faith",
-    reversedMeaning: "Recklessness, risk-taking, lack of direction",
-    position: "present"
+    interpretations: {
+      upright: "New beginnings, spontaneity, a leap of faith",
+      reversed: "Recklessness, risk-taking, lack of direction"
+    }
   },
   {
+    id: 1,
     name: "The Magician",
     arcana: "major",
-    uprightMeaning: "Manifestation, resourcefulness, power",
-    reversedMeaning: "Manipulation, poor planning, untapped talents"
+    interpretations: {
+      upright: "Manifestation, resourcefulness, power",
+      reversed: "Manipulation, poor planning, untapped talents"
+    }
   },
   {
+    id: 2,
     name: "The High Priestess",
     arcana: "major",
-    uprightMeaning: "Intuition, sacred knowledge, divine feminine",
-    reversedMeaning: "Secrets, disconnected from intuition, withdrawal"
+    interpretations: {
+      upright: "Intuition, sacred knowledge, divine feminine",
+      reversed: "Secrets, disconnected from intuition, withdrawal"
+    }
   },
   {
+    id: 3,
     name: "The Empress",
     arcana: "major",
-    uprightMeaning: "Femininity, beauty, nature, nurturing",
-    reversedMeaning: "Dependence, smothering, emptiness"
+    interpretations: {
+      upright: "Femininity, beauty, nature, nurturing",
+      reversed: "Dependence, smothering, emptiness"
+    }
   },
   {
+    id: 4,
     name: "The Emperor",
     arcana: "major",
-    uprightMeaning: "Authority, structure, control, fatherhood",
-    reversedMeaning: "Tyranny, rigidity, coldness"
+    interpretations: {
+      upright: "Authority, structure, control, fatherhood",
+      reversed: "Tyranny, rigidity, coldness"
+    }
   },
   {
+    id: 5,
     name: "The Hierophant",
     arcana: "major",
-    uprightMeaning: "Tradition, conformity, morality, ethics",
-    reversedMeaning: "Rebellion, subversiveness, new approaches"
+    interpretations: {
+      upright: "Tradition, conformity, morality, ethics",
+      reversed: "Rebellion, subversiveness, new approaches"
+    }
   },
   {
+    id: 6,
     name: "The Lovers",
     arcana: "major",
-    uprightMeaning: "Love, harmony, relationships, values alignment",
-    reversedMeaning: "Self-love, disharmony, imbalance"
+    interpretations: {
+      upright: "Love, harmony, relationships, values alignment",
+      reversed: "Self-love, disharmony, imbalance"
+    }
   },
   {
+    id: 7,
     name: "The Chariot",
     arcana: "major",
-    uprightMeaning: "Direction, control, willpower, victory",
-    reversedMeaning: "Lack of control, lack of direction, aggression"
+    interpretations: {
+      upright: "Direction, control, willpower, victory",
+      reversed: "Lack of control, lack of direction, aggression"
+    }
   },
   {
+    id: 8,
     name: "Strength",
     arcana: "major",
-    uprightMeaning: "Inner strength, bravery, compassion, focus",
-    reversedMeaning: "Self-doubt, weakness, insecurity"
+    interpretations: {
+      upright: "Inner strength, bravery, compassion, focus",
+      reversed: "Self-doubt, weakness, insecurity"
+    }
   },
   {
+    id: 9,
     name: "The Hermit",
     arcana: "major",
-    uprightMeaning: "Soul-searching, introspection, being alone",
-    reversedMeaning: "Isolation, loneliness, withdrawal"
+    interpretations: {
+      upright: "Soul-searching, introspection, being alone",
+      reversed: "Isolation, loneliness, withdrawal"
+    }
   },
   {
+    id: 10,
     name: "Wheel of Fortune",
     arcana: "major",
-    uprightMeaning: "Change, cycles, inevitable fate",
-    reversedMeaning: "No control, clinging to control, bad luck"
+    interpretations: {
+      upright: "Change, cycles, inevitable fate",
+      reversed: "No control, clinging to control, bad luck"
+    }
   },
   {
+    id: 11,
     name: "Justice",
     arcana: "major",
-    uprightMeaning: "Cause and effect, clarity, truth",
-    reversedMeaning: "Dishonesty, unaccountability, unfairness"
+    interpretations: {
+      upright: "Cause and effect, clarity, truth",
+      reversed: "Dishonesty, unaccountability, unfairness"
+    }
   },
   {
+    id: 12,
     name: "The Hanged Man",
     arcana: "major",
-    uprightMeaning: "Sacrifice, release, martyrdom",
-    reversedMeaning: "Stalling, needless sacrifice, fear of sacrifice"
+    interpretations: {
+      upright: "Sacrifice, release, martyrdom",
+      reversed: "Stalling, needless sacrifice, fear of sacrifice"
+    }
   },
   {
+    id: 13,
     name: "Death",
     arcana: "major",
-    uprightMeaning: "End of cycle, beginnings, change, metamorphosis",
-    reversedMeaning: "Fear of change, holding on, stagnation"
+    interpretations: {
+      upright: "End of cycle, beginnings, change, metamorphosis",
+      reversed: "Fear of change, holding on, stagnation"
+    }
   },
   {
+    id: 14,
     name: "Temperance",
     arcana: "major",
-    uprightMeaning: "Middle path, patience, finding meaning",
-    reversedMeaning: "Extremes, excess, lack of balance"
+    interpretations: {
+      upright: "Middle path, patience, finding meaning",
+      reversed: "Extremes, excess, lack of balance"
+    }
   },
   {
+    id: 15,
     name: "The Devil",
     arcana: "major",
-    uprightMeaning: "Addiction, materialism, playfulness",
-    reversedMeaning: "Freedom, release, restoring control"
+    interpretations: {
+      upright: "Addiction, materialism, playfulness",
+      reversed: "Freedom, release, restoring control"
+    }
   },
   {
+    id: 16,
     name: "The Tower",
     arcana: "major",
-    uprightMeaning: "Sudden upheaval, broken pride, disaster",
-    reversedMeaning: "Disaster avoided, delayed disaster, fear of suffering"
+    interpretations: {
+      upright: "Sudden upheaval, broken pride, disaster",
+      reversed: "Disaster avoided, delayed disaster, fear of suffering"
+    }
   },
   {
+    id: 17,
     name: "The Star",
     arcana: "major",
-    uprightMeaning: "Hope, faith, purpose, renewal",
-    reversedMeaning: "Faithlessness, discouragement, insecurity"
+    interpretations: {
+      upright: "Hope, faith, purpose, renewal",
+      reversed: "Faithlessness, discouragement, insecurity"
+    }
   },
   {
+    id: 18,
     name: "The Moon",
     arcana: "major",
-    uprightMeaning: "Unconscious, illusions, intuition",
-    reversedMeaning: "Confusion, fear, misinterpretation"
+    interpretations: {
+      upright: "Unconscious, illusions, intuition",
+      reversed: "Confusion, fear, misinterpretation"
+    }
   },
   {
+    id: 19,
     name: "The Sun",
     arcana: "major",
-    uprightMeaning: "Joy, success, celebration, positivity",
-    reversedMeaning: "Negativity, depression, sadness"
+    interpretations: {
+      upright: "Joy, success, celebration, positivity",
+      reversed: "Negativity, depression, sadness"
+    }
   },
   {
+    id: 20,
     name: "Judgement",
     arcana: "major",
-    uprightMeaning: "Reflection, reckoning, awakening",
-    reversedMeaning: "Lack of self awareness, doubt, self-loathing"
+    interpretations: {
+      upright: "Reflection, reckoning, awakening",
+      reversed: "Lack of self awareness, doubt, self-loathing"
+    }
   },
   {
+    id: 21,
     name: "The World",
     arcana: "major",
-    uprightMeaning: "Completion, integration, accomplishment",
-    reversedMeaning: "Incompletion, no closure"
+    interpretations: {
+      upright: "Completion, integration, accomplishment",
+      reversed: "Incompletion, no closure"
+    }
   }
 ]
 
 // Minor Arcana - Wands
 export const wands: TarotCard[] = [
   {
+    id: 22,
     name: "Ace of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Inspiration, new opportunities, growth, potential",
-    reversedMeaning: "Delays, lack of motivation, missed opportunities"
+    interpretations: {
+      upright: "Inspiration, new opportunities, growth, potential",
+      reversed: "Delays, lack of motivation, missed opportunities"
+    }
   },
   {
+    id: 23,
     name: "Two of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Planning, making decisions, leaving home",
-    reversedMeaning: "Fear of change, bad planning, overanalyzing"
+    interpretations: {
+      upright: "Planning, making decisions, leaving home",
+      reversed: "Fear of change, bad planning, overanalyzing"
+    }
   },
   {
+    id: 24,
     name: "Three of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Looking ahead, expansion, rapid growth",
-    reversedMeaning: "Obstacles, delays, frustration"
+    interpretations: {
+      upright: "Looking ahead, expansion, rapid growth",
+      reversed: "Obstacles, delays, frustration"
+    }
   },
   {
+    id: 25,
     name: "Four of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Celebration, joy, harmony, relaxation",
-    reversedMeaning: "Transition, lack of support, home conflict"
+    interpretations: {
+      upright: "Celebration, joy, harmony, relaxation",
+      reversed: "Transition, lack of support, home conflict"
+    }
   },
   {
+    id: 26,
     name: "Five of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Competition, rivalry, conflict",
-    reversedMeaning: "Avoiding conflict, respecting differences"
+    interpretations: {
+      upright: "Competition, rivalry, conflict",
+      reversed: "Avoiding conflict, respecting differences"
+    }
   },
   {
+    id: 27,
     name: "Six of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Victory, success, public reward",
-    reversedMeaning: "Excess pride, lack of recognition, punishment"
+    interpretations: {
+      upright: "Victory, success, public reward",
+      reversed: "Excess pride, lack of recognition, punishment"
+    }
   },
   {
+    id: 28,
     name: "Seven of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Perseverance, defensive, maintaining control",
-    reversedMeaning: "Give up, destroyed confidence, overwhelmed"
+    interpretations: {
+      upright: "Perseverance, defensive, maintaining control",
+      reversed: "Give up, destroyed confidence, overwhelmed"
+    }
   },
   {
+    id: 29,
     name: "Eight of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Rapid action, movement, quick decisions",
-    reversedMeaning: "Delays, frustration, holding off"
+    interpretations: {
+      upright: "Rapid action, movement, quick decisions",
+      reversed: "Delays, frustration, holding off"
+    }
   },
   {
+    id: 30,
     name: "Nine of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Resilience, grit, last stretch",
-    reversedMeaning: "Exhaustion, fatigue, questioning motivations"
+    interpretations: {
+      upright: "Resilience, grit, last stretch",
+      reversed: "Exhaustion, fatigue, questioning motivations"
+    }
   },
   {
+    id: 31,
     name: "Ten of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Accomplishment, responsibility, burden",
-    reversedMeaning: "Inability to delegate, overstressed, burnt out"
+    interpretations: {
+      upright: "Accomplishment, responsibility, burden",
+      reversed: "Inability to delegate, overstressed, burnt out"
+    }
   },
   {
+    id: 32,
     name: "Page of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Exploration, excitement, freedom",
-    reversedMeaning: "Lack of direction, procrastination, creating conflict"
+    interpretations: {
+      upright: "Exploration, excitement, freedom",
+      reversed: "Lack of direction, procrastination, creating conflict"
+    }
   },
   {
+    id: 33,
     name: "Knight of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Action, adventure, fearlessness",
-    reversedMeaning: "Anger, impulsiveness, recklessness"
+    interpretations: {
+      upright: "Action, adventure, fearlessness",
+      reversed: "Anger, impulsiveness, recklessness"
+    }
   },
   {
+    id: 34,
     name: "Queen of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Courage, determination, joy",
-    reversedMeaning: "Selfishness, jealousy, insecurities"
+    interpretations: {
+      upright: "Courage, determination, joy",
+      reversed: "Selfishness, jealousy, insecurities"
+    }
   },
   {
+    id: 35,
     name: "King of Wands",
     arcana: "minor",
     suit: "Wands",
-    uprightMeaning: "Big picture, leadership, overcoming challenges",
-    reversedMeaning: "Impulsive, overbearing, unachievable expectations"
+    interpretations: {
+      upright: "Big picture, leadership, overcoming challenges",
+      reversed: "Impulsive, overbearing, unachievable expectations"
+    }
   }
 ]
 
 // Minor Arcana - Cups
 export const cups: TarotCard[] = [
   {
+    id: 1,
     name: "Ace of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "New feelings, spirituality, intuition",
-    reversedMeaning: "Blocked emotions, emptiness, feeling unloved"
+    number: 1,
+    interpretations: {
+      upright: "New feelings, emotional awakening, creativity",
+      reversed: "Emotional loss, blocked creativity, emptiness"
+    }
   },
   {
+    id: 2,
     name: "Two of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Unity, partnership, mutual attraction",
-    reversedMeaning: "Imbalance, broken communication, tension"
+    interpretations: {
+      upright: "Unity, partnership, mutual attraction",
+      reversed: "Imbalance, broken communication, tension"
+    }
   },
   {
+    id: 3,
     name: "Three of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Friendship, community, happiness",
-    reversedMeaning: "Overindulgence, gossip, isolation"
+    interpretations: {
+      upright: "Friendship, community, happiness",
+      reversed: "Overindulgence, gossip, isolation"
+    }
   },
   {
+    id: 4,
     name: "Four of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Meditation, contemplation, apathy",
-    reversedMeaning: "New awareness, depression, hopelessness"
+    interpretations: {
+      upright: "Meditation, contemplation, apathy",
+      reversed: "New awareness, depression, hopelessness"
+    }
   },
   {
+    id: 5,
     name: "Five of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Loss, grief, self-pity",
-    reversedMeaning: "Acceptance, moving on, finding peace"
+    interpretations: {
+      upright: "Loss, grief, self-pity",
+      reversed: "Acceptance, moving on, finding peace"
+    }
   },
   {
+    id: 6,
     name: "Six of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Familiarity, happy memories, healing",
-    reversedMeaning: "Moving forward, leaving home, independence"
+    interpretations: {
+      upright: "Familiarity, happy memories, healing",
+      reversed: "Moving forward, leaving home, independence"
+    }
   },
   {
+    id: 7,
     name: "Seven of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Searching for purpose, choices, daydreaming",
-    reversedMeaning: "Lack of purpose, confusion, distractions"
+    interpretations: {
+      upright: "Searching for purpose, choices, daydreaming",
+      reversed: "Lack of purpose, confusion, distractions"
+    }
   },
   {
+    id: 8,
     name: "Eight of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Walking away, disillusionment, leaving behind",
-    reversedMeaning: "Avoidance, fear of change, fear of loss"
+    interpretations: {
+      upright: "Walking away, disillusionment, leaving behind",
+      reversed: "Avoidance, fear of change, fear of loss"
+    }
   },
   {
+    id: 9,
     name: "Nine of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Satisfaction, emotional stability, luxury",
-    reversedMeaning: "Lack of inner joy, pretending, dissatisfaction"
+    interpretations: {
+      upright: "Satisfaction, emotional stability, luxury",
+      reversed: "Lack of inner joy, pretending, dissatisfaction"
+    }
   },
   {
+    id: 10,
     name: "Ten of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Inner happiness, fulfillment, dreams coming true",
-    reversedMeaning: "Shattered dreams, broken family, domestic disharmony"
+    interpretations: {
+      upright: "Inner happiness, fulfillment, dreams coming true",
+      reversed: "Shattered dreams, broken family, domestic disharmony"
+    }
   },
   {
+    id: 11,
     name: "Page of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Happy surprise, dreamer, sensitivity",
-    reversedMeaning: "Emotional immaturity, insecurity, disappointment"
+    interpretations: {
+      upright: "Happy surprise, dreamer, sensitivity",
+      reversed: "Emotional immaturity, insecurity, disappointment"
+    }
   },
   {
+    id: 12,
     name: "Knight of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Following the heart, idealist, romantic",
-    reversedMeaning: "Moodiness, disappointment, unrealistic"
+    interpretations: {
+      upright: "Following the heart, idealist, romantic",
+      reversed: "Moodiness, disappointment, unrealistic"
+    }
   },
   {
+    id: 13,
     name: "Queen of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Compassion, calm, comfort",
-    reversedMeaning: "Martyrdom, insecurity, dependence"
+    interpretations: {
+      upright: "Compassion, calm, comfort",
+      reversed: "Martyrdom, insecurity, dependence"
+    }
   },
   {
+    id: 14,
     name: "King of Cups",
     arcana: "minor",
     suit: "Cups",
-    uprightMeaning: "Compassion, control, balance",
-    reversedMeaning: "Coldness, moodiness, bad advice"
+    interpretations: {
+      upright: "Compassion, control, balance",
+      reversed: "Coldness, moodiness, bad advice"
+    }
   }
 ]
 
 // Minor Arcana - Swords
 export const swords: TarotCard[] = [
   {
+    id: 15,
     name: "Ace of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Breakthrough, clarity, sharp mind",
-    reversedMeaning: "Confusion, brutality, chaos"
+    interpretations: {
+      upright: "Breakthrough, clarity, sharp mind",
+      reversed: "Confusion, brutality, chaos"
+    }
   },
   {
+    id: 16,
     name: "Two of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Difficult choices, indecision, stalemate",
-    reversedMeaning: "Indecision, confusion, information overload"
+    interpretations: {
+      upright: "Difficult choices, indecision, stalemate",
+      reversed: "Indecision, confusion, information overload"
+    }
   },
   {
+    id: 17,
     name: "Three of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Heartbreak, suffering, grief",
-    reversedMeaning: "Recovery, forgiveness, moving on"
+    interpretations: {
+      upright: "Heartbreak, suffering, grief",
+      reversed: "Recovery, forgiveness, moving on"
+    }
   },
   {
+    id: 18,
     name: "Four of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Rest, restoration, contemplation",
-    reversedMeaning: "Restlessness, burnout, stress"
+    interpretations: {
+      upright: "Rest, restoration, contemplation",
+      reversed: "Restlessness, burnout, stress"
+    }
   },
   {
+    id: 19,
     name: "Five of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Unbridled ambition, win at all costs, sneakiness",
-    reversedMeaning: "Reconciliation, making amends, past resentment"
+    interpretations: {
+      upright: "Unbridled ambition, win at all costs, sneakiness",
+      reversed: "Reconciliation, making amends, past resentment"
+    }
   },
   {
+    id: 20,
     name: "Six of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Transition, leaving behind, moving on",
-    reversedMeaning: "Emotional baggage, unresolved issues, resisting transition"
+    interpretations: {
+      upright: "Transition, leaving behind, moving on",
+      reversed: "Emotional baggage, unresolved issues, resisting transition"
+    }
   },
   {
+    id: 21,
     name: "Seven of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Deception, trickery, tactics and strategy",
-    reversedMeaning: "Coming clean, rethinking approach, deception"
+    interpretations: {
+      upright: "Deception, trickery, tactics and strategy",
+      reversed: "Coming clean, rethinking approach, deception"
+    }
   },
   {
+    id: 22,
     name: "Eight of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Restriction, confusion, powerlessness",
-    reversedMeaning: "Self-acceptance, new perspective, freedom"
+    interpretations: {
+      upright: "Restriction, confusion, powerlessness",
+      reversed: "Self-acceptance, new perspective, freedom"
+    }
   },
   {
+    id: 23,
     name: "Nine of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Anxiety, worry, fear, depression",
-    reversedMeaning: "Inner turmoil, deep-seated fears, secrets"
+    interpretations: {
+      upright: "Anxiety, worry, fear, depression",
+      reversed: "Inner turmoil, deep-seated fears, secrets"
+    }
   },
   {
+    id: 24,
     name: "Ten of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Back-stabbed, defeat, crisis",
-    reversedMeaning: "Recovery, regeneration, resistance"
+    interpretations: {
+      upright: "Back-stabbed, defeat, crisis",
+      reversed: "Recovery, regeneration, resistance"
+    }
   },
   {
+    id: 25,
     name: "Page of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Curiosity, restlessness, mental energy",
-    reversedMeaning: "Deception, manipulation, all talk"
+    interpretations: {
+      upright: "Curiosity, restlessness, mental energy",
+      reversed: "Deception, manipulation, all talk"
+    }
   },
   {
+    id: 26,
     name: "Knight of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Action, impulsiveness, defending beliefs",
-    reversedMeaning: "No direction, disregard for consequences, unpredictability"
+    interpretations: {
+      upright: "Action, impulsiveness, defending beliefs",
+      reversed: "No direction, disregard for consequences, unpredictability"
+    }
   },
   {
+    id: 27,
     name: "Queen of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Complexity, perceptiveness, clear boundaries",
-    reversedMeaning: "Cold hearted, cruel, bitterness"
+    interpretations: {
+      upright: "Complexity, perceptiveness, clear boundaries",
+      reversed: "Cold hearted, cruel, bitterness"
+    }
   },
   {
+    id: 28,
     name: "King of Swords",
     arcana: "minor",
     suit: "Swords",
-    uprightMeaning: "Mental clarity, intellectual power, authority",
-    reversedMeaning: "Manipulative, cruel, weakness"
+    interpretations: {
+      upright: "Mental clarity, intellectual power, authority",
+      reversed: "Manipulative, cruel, weakness"
+    }
   }
 ]
 
 // Minor Arcana - Pentacles
 export const pentacles: TarotCard[] = [
   {
+    id: 29,
     name: "Ace of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Opportunity, prosperity, new venture",
-    reversedMeaning: "Lost opportunity, missed chance, bad investment"
+    interpretations: {
+      upright: "Opportunity, prosperity, new venture",
+      reversed: "Lost opportunity, missed chance, bad investment"
+    }
   },
   {
+    id: 30,
     name: "Two of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Balance, adaptability, time management",
-    reversedMeaning: "Disorganization, financial disarray, overwhelmed"
+    interpretations: {
+      upright: "Balance, adaptability, time management",
+      reversed: "Disorganization, financial disarray, overwhelmed"
+    }
   },
   {
+    id: 31,
     name: "Three of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Teamwork, collaboration, learning",
-    reversedMeaning: "Lack of teamwork, disorganized, group conflict"
+    interpretations: {
+      upright: "Teamwork, collaboration, learning",
+      reversed: "Lack of teamwork, disorganized, group conflict"
+    }
   },
   {
+    id: 32,
     name: "Four of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Control, stability, security, possession",
-    reversedMeaning: "Greed, materialism, self-protection"
+    interpretations: {
+      upright: "Control, stability, security, possession",
+      reversed: "Greed, materialism, self-protection"
+    }
   },
   {
+    id: 33,
     name: "Five of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Need, poverty, insecurity, hardship",
-    reversedMeaning: "Recovery, charity, improvement"
+    interpretations: {
+      upright: "Need, poverty, insecurity, hardship",
+      reversed: "Recovery, charity, improvement"
+    }
   },
   {
+    id: 34,
     name: "Six of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Charity, generosity, sharing",
-    reversedMeaning: "Strings attached, stinginess, power and domination"
+    interpretations: {
+      upright: "Charity, generosity, sharing",
+      reversed: "Strings attached, stinginess, power and domination"
+    }
   },
   {
+    id: 35,
     name: "Seven of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Hard work, perseverance, diligence",
-    reversedMeaning: "Work without results, distractions, lack of rewards"
+    interpretations: {
+      upright: "Hard work, perseverance, diligence",
+      reversed: "Work without results, distractions, lack of rewards"
+    }
   },
   {
+    id: 36,
     name: "Eight of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Apprenticeship, education, quality",
-    reversedMeaning: "Perfectionism, lack of quality, low motivation"
+    interpretations: {
+      upright: "Apprenticeship, education, quality",
+      reversed: "Perfectionism, lack of quality, low motivation"
+    }
   },
   {
+    id: 37,
     name: "Nine of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Fruits of labor, rewards, luxury",
-    reversedMeaning: "Reckless spending, living beyond means"
+    interpretations: {
+      upright: "Fruits of labor, rewards, luxury",
+      reversed: "Reckless spending, living beyond means"
+    }
   },
   {
+    id: 38,
     name: "Ten of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Legacy, culmination, inheritance",
-    reversedMeaning: "Financial failure, lack of stability, lack of resources"
+    interpretations: {
+      upright: "Legacy, culmination, inheritance",
+      reversed: "Financial failure, lack of stability, lack of resources"
+    }
   },
   {
+    id: 39,
     name: "Page of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Ambition, desire, diligence, concentration",
-    reversedMeaning: "Lack of commitment, greediness, laziness"
+    interpretations: {
+      upright: "Ambition, desire, diligence, concentration",
+      reversed: "Lack of commitment, greediness, laziness"
+    }
   },
   {
+    id: 40,
     name: "Knight of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Efficiency, hard work, responsibility",
-    reversedMeaning: "Laziness, obsessiveness, work without reward"
+    interpretations: {
+      upright: "Efficiency, hard work, responsibility",
+      reversed: "Laziness, obsessiveness, work without reward"
+    }
   },
   {
+    id: 41,
     name: "Queen of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Practicality, creature comforts, financial security",
-    reversedMeaning: "Self-centeredness, jealousy, smothering"
+    interpretations: {
+      upright: "Practicality, creature comforts, financial security",
+      reversed: "Self-centeredness, jealousy, smothering"
+    }
   },
   {
+    id: 42,
     name: "King of Pentacles",
     arcana: "minor",
     suit: "Pentacles",
-    uprightMeaning: "Abundance, prosperity, security",
-    reversedMeaning: "Greed, indulgence, sensuality"
+    interpretations: {
+      upright: "Abundance, prosperity, security",
+      reversed: "Greed, indulgence, sensuality"
+    }
   }
 ]
 

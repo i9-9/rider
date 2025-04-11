@@ -3,78 +3,116 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { useState } from "react"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { useToast } from "@/components/ui/use-toast"
+import { TarotCard } from "@/lib/tarot-data"
 
 interface NavbarProps {
   onDrawCards?: () => void
+  cards?: TarotCard[]
+  positions?: string[]
 }
 
-export default function Navbar({ onDrawCards }: NavbarProps) {
-  const [isAboutOpen, setIsAboutOpen] = useState(false)
+export function Navbar({ onDrawCards, cards = [], positions = [] }: NavbarProps) {
   const pathname = usePathname()
+  const { toast } = useToast()
+
+  const handleCopySpread = () => {
+    if (!cards.length || !positions.length) {
+      toast({
+        title: "No spread to copy",
+        description: "Please draw cards first",
+        variant: "destructive"
+      })
+      return
+    }
+
+    const spreadText = cards.map((card, index) => {
+      const position = positions[index]
+      const orientation = card.isReversed ? "Reversed" : "Upright"
+      return `${position}: ${card.name} (${orientation})`
+    }).join("\n")
+
+    navigator.clipboard.writeText(spreadText)
+    toast({
+      title: "Spread copied!",
+      description: "The spread has been copied to your clipboard",
+    })
+  }
 
   return (
-    <nav className="w-full border-b border-white/20">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-6">
+    <nav className="bg-black/50 backdrop-blur-sm border-b border-white/20 fixed w-full z-50">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-center gap-8">
             <Link 
               href="/" 
-              className={`text-white font-semibold hover:text-white/80 transition-colors ${
-                pathname === "/" ? "text-white" : "text-white/60"
-              }`}
+              className={`text-white/60 hover:text-white transition-colors ${pathname === "/" ? "text-white" : ""}`}
             >
               Tarot Spread
             </Link>
             <Link 
               href="/encyclopedia" 
-              className={`text-white font-semibold hover:text-white/80 transition-colors ${
-                pathname === "/encyclopedia" ? "text-white" : "text-white/60"
-              }`}
+              className={`text-white/60 hover:text-white transition-colors ${pathname === "/encyclopedia" ? "text-white" : ""}`}
             >
               Encyclopedia
             </Link>
           </div>
           <div className="flex items-center gap-4">
             {onDrawCards && (
-              <Button
-                onClick={onDrawCards}
-                className="bg-white/10 hover:bg-white/20 text-white transition-colors"
-              >
-                Draw New Cards
-              </Button>
+              <>
+                <Button 
+                  onClick={handleCopySpread}
+                  className="bg-white/10 hover:bg-white/20 text-white transition-colors"
+                >
+                  Copy Spread
+                </Button>
+                <Button 
+                  onClick={onDrawCards}
+                  className="bg-white/10 hover:bg-white/20 text-white transition-colors"
+                >
+                  Draw New Cards
+                </Button>
+              </>
             )}
-            <Button
-              onClick={() => setIsAboutOpen(true)}
-              variant="ghost"
-              className="text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-            >
-              About
-            </Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="ghost" className="text-white hover:text-white hover:bg-white/10">
+                  About
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-2xl bg-black text-white border-white/20">
+                <DialogHeader>
+                  <DialogTitle className="text-white">About Celtic Cross Tarot Reading</DialogTitle>
+                </DialogHeader>
+                <div className="space-y-4">
+                  <p className="text-gray-400">
+                    The Celtic Cross is one of the most popular and widely used tarot spreads. It&apos;s a comprehensive spread that provides insight into a specific situation or question, offering both immediate and long-term perspectives.
+                  </p>
+                  <p className="text-gray-400">
+                    The spread consists of 10 cards arranged in a cross pattern, each position representing different aspects of the situation:
+                  </p>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-400">
+                    <li><strong className="text-white">1. Present Situation:</strong> Your current circumstances and immediate influences</li>
+                    <li><strong className="text-white">2. Challenge:</strong> The main obstacle or difficulty you&apos;re facing</li>
+                    <li><strong className="text-white">3. Subconscious:</strong> Hidden factors affecting your situation</li>
+                    <li><strong className="text-white">4. Past:</strong> Events that have led to your current situation</li>
+                    <li><strong className="text-white">5. Conscious:</strong> Your current thoughts and feelings</li>
+                    <li><strong className="text-white">6. Future:</strong> What is likely to happen in the near term</li>
+                    <li><strong className="text-white">7. Self:</strong> How you can affect the situation</li>
+                    <li><strong className="text-white">8. Environment:</strong> Outside factors affecting your situation</li>
+                    <li><strong className="text-white">9. Hopes & Fears:</strong> Your emotional state and expectations</li>
+                    <li><strong className="text-white">10. Outcome:</strong> The likely result if current trends continue</li>
+                  </ul>
+                  <p className="text-gray-400">
+                    The Celtic Cross spread is particularly useful for gaining insight into complex situations, understanding the dynamics at play, and identifying potential paths forward.
+                  </p>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </div>
-
-      <Dialog open={isAboutOpen} onOpenChange={setIsAboutOpen}>
-        <DialogContent className="sm:max-w-2xl bg-black text-white border-white/20">
-          <DialogHeader>
-            <DialogTitle className="text-xl text-white">About the Celtic Cross Tarot Reading</DialogTitle>
-          </DialogHeader>
-          <div className="space-y-4 text-gray-300">
-            <p>
-              Each card interpretation includes insights for all 10 positions in the Celtic Cross spread, offering guidance that integrates:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Hebrew letter correspondences (Kabbalistic approach)</li>
-              <li>Tree of Life connections</li>
-              <li>Jungian archetypes and psychological dynamics</li>
-              <li>Humanistic psychology concepts</li>
-              <li>The shadow and integration aspects of each position</li>
-            </ul>
-          </div>
-        </DialogContent>
-      </Dialog>
     </nav>
   )
 } 

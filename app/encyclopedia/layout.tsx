@@ -1,4 +1,4 @@
-import { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 
 export const metadata: Metadata = {
   title: "Tarot Encyclopedia | Complete Guide to Tarot Cards",
@@ -6,10 +6,17 @@ export const metadata: Metadata = {
   keywords: ["tarot encyclopedia", "tarot card meanings", "major arcana", "minor arcana", "tarot guide", "tarot learning", "tarot card interpretations"],
 }
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: "#000000",
+}
+
 export default function EncyclopediaLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return children
 } 

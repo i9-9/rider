@@ -11,9 +11,7 @@ import { getCardImagePath } from "@/lib/card-utils"
 interface TarotCardProps {
   card: TarotCard
   position?: string
-  onFlip?: () => void
   onReveal?: () => void
-  isFlipped?: boolean
   isRevealed?: boolean
   isReversed?: boolean
 }
@@ -21,9 +19,7 @@ interface TarotCardProps {
 export function TarotCardComponent({ 
   card, 
   position, 
-  onFlip, 
   onReveal,
-  isFlipped = false,
   isRevealed = false,
   isReversed = false
 }: TarotCardProps) {

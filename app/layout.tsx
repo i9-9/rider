@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/toaster";
+import { Navbar } from "@/components/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,19 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Tarot Reading | Celtic Cross Spread",
-    template: "%s | Tarot Reading"
-  },
-  description: "Explore the ancient wisdom of tarot with our interactive Celtic Cross spread. Get detailed interpretations for each card position and discover insights about your past, present, and future.",
+  title: "Celtic Cross Tarot Reading",
+  description: "A modern tarot reading experience with the Celtic Cross spread",
   keywords: ["tarot", "celtic cross", "tarot reading", "tarot spread", "divination", "fortune telling", "tarot cards", "tarot meanings"],
   authors: [{ name: "Ivan Nevares" }],
   openGraph: {
-    title: "Tarot Reading | Celtic Cross Spread",
-    description: "Explore the ancient wisdom of tarot with our interactive Celtic Cross spread. Get detailed interpretations for each card position and discover insights about your past, present, and future.",
+    title: "Celtic Cross Tarot Reading",
+    description: "A modern tarot reading experience with the Celtic Cross spread",
     type: "website",
     locale: "en_US",
-    siteName: "Tarot Reading",
+    siteName: "Celtic Cross Tarot Reading",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -39,15 +37,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tarot Reading | Celtic Cross Spread",
-    description: "Explore the ancient wisdom of tarot with our interactive Celtic Cross spread.",
+    title: "Celtic Cross Tarot Reading",
+    description: "A modern tarot reading experience with the Celtic Cross spread.",
     images: ["/images/og-image.jpg"]
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+  metadataBase: new URL('https://rider-tarot.vercel.app'),
   robots: {
     index: true,
     follow: true,
@@ -63,7 +57,6 @@ export const metadata: Metadata = {
       { url: "/icons/apple-icon.png" }
     ],
   },
-  themeColor: "#000000",
   alternates: {
     canonical: "https://tarot-reading.com"
   }
@@ -72,8 +65,8 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Tarot Reading | Celtic Cross Spread",
-  "description": "Explore the ancient wisdom of tarot with our interactive Celtic Cross spread",
+  "name": "Celtic Cross Tarot Reading",
+  "description": "A modern tarot reading experience with the Celtic Cross spread",
   "url": "https://tarot-reading.com",
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Any",
@@ -84,13 +77,20 @@ const jsonLd = {
   }
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: "#000000",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <head>
         <Script
           id="json-ld"
@@ -98,9 +98,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+        <Navbar />
         {children}
         <Toaster />
       </body>

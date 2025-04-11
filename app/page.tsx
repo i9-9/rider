@@ -35,21 +35,12 @@ const spreadPositions = [
 export default function Home() {
   const [cards, setCards] = useState<TarotCardType[]>([])
   const [revealedCards, setRevealedCards] = useState<boolean[]>(new Array(10).fill(false))
-  const [flippedCards, setFlippedCards] = useState<boolean[]>(new Array(10).fill(false))
 
   const handleRevealCard = (index: number) => {
     setRevealedCards(prev => {
       const newRevealed = [...prev]
       newRevealed[index] = true
       return newRevealed
-    })
-  }
-
-  const handleFlipCard = (index: number) => {
-    setFlippedCards(prev => {
-      const newFlipped = [...prev]
-      newFlipped[index] = true
-      return newFlipped
     })
   }
 
@@ -61,7 +52,6 @@ export default function Home() {
     }))
     setCards(selected)
     setRevealedCards(new Array(10).fill(false))
-    setFlippedCards(new Array(10).fill(false))
   }
 
   useEffect(() => {
@@ -86,9 +76,7 @@ export default function Home() {
                     card={card}
                     position={positionMapping[spreadPositions[index].meaning as keyof typeof positionMapping]}
                     onReveal={() => handleRevealCard(index)}
-                    onFlip={() => handleFlipCard(index)}
                     isRevealed={revealedCards[index]}
-                    isFlipped={flippedCards[index]}
                     isReversed={card.isReversed}
                   />
                 </div>
@@ -106,9 +94,7 @@ export default function Home() {
                     card={card}
                     position={positionMapping[spreadPositions[index + 5].meaning as keyof typeof positionMapping]}
                     onReveal={() => handleRevealCard(index + 5)}
-                    onFlip={() => handleFlipCard(index + 5)}
                     isRevealed={revealedCards[index + 5]}
-                    isFlipped={flippedCards[index + 5]}
                     isReversed={card.isReversed}
                   />
                 </div>
